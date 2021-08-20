@@ -1,5 +1,16 @@
 /* header css */
-
+.companyLogo {
+  font-size: ;
+  font-weight: ;
+}
 /* nav css */
-
+.navLinksToTheRight {
+  float: right;
+}
+@media screen and (max-width: 500px) {
+  /* this removes the right hand positioning when it meets the @media screen condition */
+  .navLinksToTheRight {
+    float: none;
+  }
+}
 /* footer css */
