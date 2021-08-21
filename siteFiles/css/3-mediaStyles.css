@@ -1,0 +1,9 @@
+.stressed, .stressfree, .arrow {
+    width: 270px;
+    border: 1px solid black;
+    
+}
+
+body {
+    color: blue;
+}
