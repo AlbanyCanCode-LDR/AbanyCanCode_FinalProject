@@ -1,9 +1,31 @@
 /* header css */
 .companyLogo {
-  font-size: ;
-  font-weight: ;
+  font-size: 100% ;
+  font-weight: 100% ;
 }
 /* nav css */
+/*.navHTML {
+  border-bottom: 1px solid black;
+}
+
+.navHTML ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navHTMLS {
+  display: inline-block;
+}
+
+.navHTMLS .nlinks::after {
+  display: inline-block;
+  color: #000;
+  content: '>';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
+} */
+
 .navLinksToTheRight {
   float: right;
 }
