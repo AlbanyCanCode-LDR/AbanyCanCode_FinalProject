@@ -14,3 +14,8 @@ h2 {
   color: ;
 }
 
+.quote {
+  font-family: 'DM Serif Text', serif;
+  font-size: 200%;
+  text-align: center;
+}
