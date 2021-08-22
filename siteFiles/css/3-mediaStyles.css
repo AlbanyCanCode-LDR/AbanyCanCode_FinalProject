@@ -1,9 +1,16 @@
-.stressed, .stressfree, .arrow {
-    width: 270px;
-    border: 1px solid black;
-    
+/* header */
+
+.logo {
+  height: 90px;
+}
+
+.stressed,
+.stressfree,
+.arrow {
+  width: 270px;
+  border: 1px solid black;
 }
 
 body {
-    color: blue;
+  color: blue;
 }
