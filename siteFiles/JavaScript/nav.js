@@ -1,11 +1,10 @@
 // This substitutes the empty navHTML class Tag with the inner html
-// This substitutes the empty navHTML class Tag with the inner html
 const nav = document.querySelector(".navHTML");
 
 const navBar = document.createElement("nav");
 
 navBar.innerHTML =
-  '<div class="navLinksToTheRight"> <a href="/index.html">Home</a> <a href="#contact">Contact</a> <a href="#about">About</a> </div>';
+  '<div class="navLinksToTheRight"> <a href="/1-index.html">Home</a> <a href="/2-bestPractices.html">Best Practices</a> <a href="3-timeManagmentApp.html">shop-affiliates</a> <a href="5-Contact.html">Contact</a> </div>';
 nav.parentNode.replaceChild(navBar, nav);
 
 /* 

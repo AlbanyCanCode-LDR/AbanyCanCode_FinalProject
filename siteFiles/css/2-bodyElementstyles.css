@@ -1,9 +1,15 @@
 body {
-  background-color: ;
+  background-color: purple ;
 }
 
+a{
+  color: aqua
+}
+
+/* maybe use google fonts? */
 p {
   font-family: ;
+  color: aqua;
 }
 
 h1 {
