@@ -1,0 +1,8 @@
+/* 
+ 
+ 
+ */ 
+
+let submittedText = 
+
+alert(submittedText)

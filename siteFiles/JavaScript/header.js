@@ -7,8 +7,6 @@ header.innerHTML =
   '<img class="logo" title="Life Work Balance Logo" src="/media/img/potentialLogo.png" alt="Life Work Balance Logo" />;';
 nav.parentNode.replaceChild(theHeaderContent, header);
 
-
-
 /* 
 
 Steps to modify the navBar and then use the join lines command 
