@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/602ca12e17.js" crossorigin="anonymous"></script>
     <title>Home</title>
   </head>
 
@@ -39,25 +40,40 @@
       </p>
     </main>
 
-    
-
-    <div class="contact"></div>
-    <form class="form1">
-        <h1 class="headercontact">Contact Us</h1>
-        <label for ="fname"> First Name: </label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for ="lname"> Last Name: </label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <label for ="phone-input"> Phone Number:</label> <br>
-        <input id="phone-input" type="tel" value="" name="phone-input" placeholder="Ex. (111)111-1111"><br>
-        <label for ="email"> Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label  for="message"> Message:</label><br>
-        <textarea name="message" rows="5" cols="40"></textarea><br>
-        <input type="submit" id="submit" name="submit"><br>
-    </form>
-    </div>
-
+    <div class="flex-container">
+      <div form class="form1">
+          <h1 class="headercontact">Contact Us</h1>
+          <label for ="fname"> First Name: </label><br>
+          <input type="text" id="fname" name="fname"><br>
+          <label for ="lname"> Last Name: </label><br>
+          <input type="text" id="lname" name="lname"><br>
+          <label for ="phone-input"> Phone Number:</label> <br>
+          <input id="phone-input" type="tel" value="" name="phone-input" placeholder="Ex. (111)111-1111"><br>
+          <label for ="email"> Email:</label><br>
+          <input type="email" id="email" name="email"><br>
+          <label  for="message"> Message:</label><br>
+          <textarea name="message" rows="5" cols="40"></textarea><br>
+          <input type="submit" id="submit" name="submit">
+      </form>
+      </div>
+  
+      <div>
+        <img src="https://images.pexels.com/photos/3791119/pexels-photo-3791119.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" height="400px"  alt="relaxedpic">
+      </div>
+  
+      <div class="contactinfo">
+        <h2><i class="fas fa-home"></i> Address</h2>
+        <p class="address1">123 Apple Avenue</p>
+        <p class="address2">Albany, NY 12201</p>
+        <br>
+        <br>
+  
+        <h2><i class="fas fa-user-alt"></i> Contact</h2>
+        <p class="email"><i class="fas fa-envelope-open-text"></i>  balancedlife@gmail.com</p>
+        <p class="phone"><i class="fas fa-phone-square-alt"></i>  (518)123-1234</p>
+      </div>
+      </div>
+  
     <footer></footer>
     <script type="text/javascript" src="/JavaScript/index.js"></script>
     <!-- index.js goes between quotes "" -->
