@@ -6,3 +6,18 @@
     border: rgb(22, 188, 194);
     border-style:double;
 } */
+
+.form1 {
+    text-align: left;
+    font-family:fantasy;
+    border: #2b6777;
+    border-style:double;
+    color: #2b6777;
+    background-image: url(https://images.pexels.com/photos/3791119/pexels-photo-3791119.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+ 
+
