@@ -4,7 +4,7 @@ const header = document.querySelector(".topOfPageContent");
 const headerContent = document.createElement("headerImg");
 
 header.innerHTML =
-  '<img class="logo" title="Life Work Balance Logo" src="/media/img/potentialLogo.png" alt="Life Work Balance Logo" />;';
+  '<img class="logo" title="Life Work Balance Logo" src="/media/img/potentialLogoUpdate.png" alt="Life Work Balance Logo" />;';
 nav.parentNode.replaceChild(theHeaderContent, header);
 
 /* 

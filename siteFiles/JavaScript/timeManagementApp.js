@@ -1,8 +1,4 @@
 /* 
  
  
- */ 
-
-let submittedText = 
-
-alert(submittedText)
+ */
