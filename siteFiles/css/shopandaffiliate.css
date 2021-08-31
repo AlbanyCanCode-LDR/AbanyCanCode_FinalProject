@@ -1,834 +1,809 @@
 .quote {
-    font-family: "DM Serif Text", serif;
-    font-size: 200%;
-    text-align: center;
-    text-decoration: none;
-    font-family: fantasy;
-    border: #2b6777;
-    border-style: double;
-  }
+  font-family: "DM Serif Text", serif;
+  font-size: 200%;
+  text-align: center;
+  text-decoration: none;
+  font-family: fantasy;
+  border: #2b6777;
+  border-style: double;
+}
 
-.shopandaffiliatebody{
-    color: #0F1111;
-    background-color: rgb(12, 170, 170);
+.shopandaffiliatebody {
+  color: #0f1111;
+  background-color: rgb(12, 170, 170);
+}
 
-   }
-
-
-.clock{
-    text-align: center;
-    font-size: 150%;
+.clock {
+  text-align: center;
+  font-size: 150%;
 }
 
 .products {
-    display: flex;
-    flex-flow: row wrap;
- align-content: flex-start;
- background-color: white;
- border:solid 4px #0F1111;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  background-color: white;
+  border: solid 4px #0f1111;
 }
 
-
-
 .product-seatcushion {
-    width: 247px;
-    height: 413.66px;
-    padding: 1%;
-    margin: 1% 0%;
-    margin-left: 8% ;
-    margin-right: 3%;
+  width: 247px;
+  height: 413.66px;
+  padding: 1%;
+  margin: 1% 0%;
+  margin-left: 8%;
+  margin-right: 3%;
 }
 
 .seatcushion-text {
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
-    
-
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .seatcushion-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
 .seatcushion-price {
-    text-decoration: line-through;
-    font-style: normal;
-    color:grey;
-    font-size: 75%;
+  text-decoration: line-through;
+  font-style: normal;
+  color: grey;
+  font-size: 75%;
 }
 
 .seatcushion-reducedprice {
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
 .seatcushion-img {
-    display: flex;
-    max-width:278.75px;
-    max-height:278.75px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 278.75px;
+  max-height: 278.75px;
+  width: auto;
+  height: auto;
 }
 
 .seatchusion-container {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.seatcushion-container>div{
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
-    
+.seatcushion-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-electricstandingdesk {
-    width: 247px;
-    height: 462.06px;
-    padding: 1%;
-    margin: 0%;
-    margin-bottom: 0%;
-margin-top: 7%;
+  width: 247px;
+  height: 462.06px;
+  padding: 1%;
+  margin: 0%;
+  margin-bottom: 0%;
+  margin-top: 7%;
 }
 
 .electricstandingdesk-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
-    position: sticky;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
+  position: sticky;
 }
 
-.electricstandingdesk-container{
-     display: flex;
-     flex-flow: column wrap;
-     justify-content: space-around;
+.electricstandingdesk-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.electricstandingdesk-container>div{
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.electricstandingdesk-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .electricstandingdesk-text {
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
-  
-
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .electricstandingdesk-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.electricstandingdesk-price{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
-  
+.electricstandingdesk-price {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-
-.manualstandingdesk-img{
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
-    
+.manualstandingdesk-img {
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.product-manualstandingdesk{
-    width: 247px;
-    height: 462.06px;
-    padding: 1%;
-    margin: 0% 1%;
-    margin-bottom: 0%;
-margin-top: 7%;
+.product-manualstandingdesk {
+  width: 247px;
+  height: 462.06px;
+  padding: 1%;
+  margin: 0% 1%;
+  margin-bottom: 0%;
+  margin-top: 7%;
 }
 
-.manualstandingdesk-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.manualstandingdesk-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.manualstandingdesk-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.manualstandingdesk-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
-.manualstandingdesk-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.manualstandingdesk-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .manualstandingdesk-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.manualstandingdesk-price{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.manualstandingdesk-price {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-.product-dualscreenstand{
-    width: 247px;
-    height: 484.06px;
-    padding: 1%;
-    margin: 0% 0%;
-    
+.product-dualscreenstand {
+  width: 247px;
+  height: 484.06px;
+  padding: 1%;
+  margin: 0% 0%;
 }
 
 .dualscreenstand-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.dualscreenstand-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.dualscreenstand-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .dualscreenstand-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.dualscreenstand-reducedprice{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.dualscreenstand-reducedprice {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
 .dualscreenstand-price {
-    text-decoration: line-through;
-    font-style: normal;
-    color:grey;
-    font-size: 75%;
+  text-decoration: line-through;
+  font-style: normal;
+  color: grey;
+  font-size: 75%;
 }
 
-.dualscreenstand-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.dualscreenstand-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.dualscreenstand-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.dualscreenstand-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-triplescreenstand {
-    width: 324.94px;
-    height: auto;
-    padding: 1%;
-    margin: 1% 0%;
-   
-   
+  width: 324.94px;
+  height: auto;
+  padding: 1%;
+  margin: 1% 0%;
 }
 
 .triplescreenstand-img {
-    display: flex;
-    width: 249.953846px;
-    height: 109.592308px;
+  display: flex;
+  width: 249.953846px;
+  height: 109.592308px;
 }
 
-.triplescreenstand-reducedprice{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.triplescreenstand-reducedprice {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
 .triplescreenstand-price {
-    text-decoration: line-through;
-    font-style: normal;
-    color:grey;
-    font-size: 75%;
+  text-decoration: line-through;
+  font-style: normal;
+  color: grey;
+  font-size: 75%;
 }
 
-.triplescreenstand-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.triplescreenstand-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .triplescreenstand-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.triplescreenstand-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.triplescreenstand-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.triplescreenstand-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.triplescreenstand-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-ergonomicChair {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 0% 1%;
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 0% 1%;
 }
 
 .ergonomicChair-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.ergonomicChair-price{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.ergonomicChair-price {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-.ergonomicChair-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.ergonomicChair-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .ergonomicChair-text:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.ergonomicChair-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.ergonomicChair-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.ergonomicChair-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.ergonomicChair-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-streamdeck {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 0% 0%;
-    margin-left: 8% ;
-    margin-right: 2%;
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 0% 0%;
+  margin-left: 8%;
+  margin-right: 2%;
 }
 
 .streamdeck-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.streamdeck-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.streamdeck-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .streamdeck-text:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.streamdeck-price{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.streamdeck-price {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-.streamdeck-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.streamdeck-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.streamdeck-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.streamdeck-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-standalonedigitalclock {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 0% 0%;
-   
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 0% 0%;
 }
 
 .standalonedigitalclock-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.standalonedigitalclock-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.standalonedigitalclock-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .standalonedigitalclock-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.standalonedigitalclock-reducedprice{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.standalonedigitalclock-reducedprice {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
 .standalonedigitalclock-price {
-    text-decoration: line-through;
-    font-style: normal;
-    color:grey;
-    font-size: 75%;
+  text-decoration: line-through;
+  font-style: normal;
+  color: grey;
+  font-size: 75%;
 }
 
-.standalonedigitalclock-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.standalonedigitalclock-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.standalonedigitalclock-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.standalonedigitalclock-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-bluelightfilterglasses {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 0% 0%;
-   
-   
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 0% 0%;
 }
 
 .bluelightfilterglasses-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.bluelightfilterglasses-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.bluelightfilterglasses-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .bluelightfilterglasses-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.bluelightfilterglasses-price{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.bluelightfilterglasses-price {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-
-
-.bluelightfilterglasses-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.bluelightfilterglasses-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.bluelightfilterglasses-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.bluelightfilterglasses-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-laptopmonitorwithipsdisplay {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 0%;
-    margin-top: 10%;
-    margin-bottom: 0%;
-   margin-left: 8% ;
-   margin-right: 2%;
-   
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 0%;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  margin-left: 8%;
+  margin-right: 2%;
 }
 
 .laptopmonitorwithipsdisplay-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.laptopmonitorwithipsdisplay-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.laptopmonitorwithipsdisplay-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .laptopmonitorwithipsdisplay-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.laptopmonitorwithipsdisplay-price{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.laptopmonitorwithipsdisplay-price {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-.laptopmonitorwithipsdisplay-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.laptopmonitorwithipsdisplay-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.laptopmonitorwithipsdisplay-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.laptopmonitorwithipsdisplay-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-monitorscreenprotector {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 0% 1%;
-   margin: 0%;
-    margin-bottom: 0%;
-margin-top: 7%;
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 0% 1%;
+  margin: 0%;
+  margin-bottom: 0%;
+  margin-top: 7%;
 }
 
 .monitorscreenprotector-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.monitorscreenprotector-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.monitorscreenprotector-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .monitorscreenprotector-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.monitorscreenprotector-price{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.monitorscreenprotector-price {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-.monitorscreenprotector-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.monitorscreenprotector-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.monitorscreenprotector-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.monitorscreenprotector-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-footrestforunderthedesk {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 1% 1%;
-   
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 1% 1%;
 }
 
 .footrestforunderthedesk-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.footrestforunderthedesk-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.footrestforunderthedesk-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .footrestforunderthedesk-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.footrestforunderthedesk-price{
-    text-decoration: line-through;
-    font-style: normal;
-    color:grey;
-    font-size: 75%;
+.footrestforunderthedesk-price {
+  text-decoration: line-through;
+  font-style: normal;
+  color: grey;
+  font-size: 75%;
 }
 
-.footrestforunderthedesk-reducedprice{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.footrestforunderthedesk-reducedprice {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-.footrestforunderthedesk-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.footrestforunderthedesk-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.footrestforunderthedesk-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.footrestforunderthedesk-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-leatherdeskpadprotector {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 0% 0%;
-    margin-left: 8% ;
-    margin-right: 2%;
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 0% 0%;
+  margin-left: 8%;
+  margin-right: 2%;
 }
 
 .leatherdeskpadprotector-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.leatherdeskpadprotector-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.leatherdeskpadprotector-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .leatherdeskpadprotector-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.leatherdeskpadprotector-price{
-    text-decoration: line-through;
-    font-style: normal;
-    color:grey;
-    font-size: 75%;
+.leatherdeskpadprotector-price {
+  text-decoration: line-through;
+  font-style: normal;
+  color: grey;
+  font-size: 75%;
 }
 
-.leatherdeskpadprotector-reducedprice{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.leatherdeskpadprotector-reducedprice {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-.leatherdeskpadprotector-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.leatherdeskpadprotector-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.leatherdeskpadprotector-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.leatherdeskpadprotector-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-cleaninggel {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 0% 0%;
-  
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 0% 0%;
 }
 
 .cleaninggel-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.cleaninggel-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.cleaninggel-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .cleaninggel-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.cleaninggel-price{
-    text-decoration: line-through;
-    font-style: normal;
-    color:grey;
-    font-size: 75%;
+.cleaninggel-price {
+  text-decoration: line-through;
+  font-style: normal;
+  color: grey;
+  font-size: 75%;
 }
 
-.cleaninggel-reducedprice{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.cleaninggel-reducedprice {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-.cleaninggel-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.cleaninggel-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.cleaninggel-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.cleaninggel-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-lumbersupportpillow {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 0% 1%;
-  
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 0% 1%;
 }
 
 .lumbersupportpillow-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.lumbersupportpillow-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.lumbersupportpillow-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .lumbersupportpillow-text:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.lumbersupportpillow-price{
-    text-decoration: line-through;
-    font-style: normal;
-    color:grey;
-    font-size: 75%;
+.lumbersupportpillow-price {
+  text-decoration: line-through;
+  font-style: normal;
+  color: grey;
+  font-size: 75%;
 }
 
-.lumbersupportpillow-reducedprice{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.lumbersupportpillow-reducedprice {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-.lumbersupportpillow-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.lumbersupportpillow-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.lumbersupportpillow-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.lumbersupportpillow-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 .product-neckandbackmassager {
-    width: 247px;
-    height: auto;
-    padding: 1%;
-    margin: 0% 1%;
-  
+  width: 247px;
+  height: auto;
+  padding: 1%;
+  margin: 0% 1%;
 }
 
 .neckandbackmassager-img {
-    display: flex;
-    max-width:233px;
-    max-height:233px;
-    width: auto;
-    height: auto;
+  display: flex;
+  max-width: 233px;
+  max-height: 233px;
+  width: auto;
+  height: auto;
 }
 
-.neckandbackmassager-text{
-    text-decoration: none;
-    font-style: normal;
-    color:#0F1111;
+.neckandbackmassager-text {
+  text-decoration: none;
+  font-style: normal;
+  color: #0f1111;
 }
 
 .neckandbackmassager-texthover:hover {
-    color: rgb(221, 107, 13);
+  color: rgb(221, 107, 13);
 }
 
-.neckandbackmassager-price{
-    font-style: normal;
-    color:grey;
-    font-size: 75%;
+.neckandbackmassager-price {
+  font-style: normal;
+  color: grey;
+  font-size: 75%;
 }
 
-.neckandbackmassager-reducedprice{
-    text-decoration: none;
-    color: #0F1111;
-    font-size: 120%;
+.neckandbackmassager-reducedprice {
+  text-decoration: none;
+  color: #0f1111;
+  font-size: 120%;
 }
 
-.neckandbackmassager-container{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
+.neckandbackmassager-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
 }
 
-.neckandbackmassager-container>div {
-    margin: 1%;
-    padding: 1%;
-    font-size: 120%;
-    text-decoration: none;
+.neckandbackmassager-container > div {
+  margin: 1%;
+  padding: 1%;
+  font-size: 120%;
+  text-decoration: none;
 }

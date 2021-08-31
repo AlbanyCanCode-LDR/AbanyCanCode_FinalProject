@@ -7,47 +7,87 @@
     border-style:double;
 } */
 
+/* this is the css for the index.html home page */
+.missionStatement {
+  font-size: larger;
+}
+
+.mainPageImages {
+  width: 100%;
+}
+
+/* Float columns side by side */
+.homeColumn {
+  float: left;
+  width: 30%;
+  padding: 0 5px;
+}
+
+/* Clear floats after the columns */
+.homePageRow:after {
+  /**/
+  content: "";
+  /**/
+  display: table;
+  /**/
+  clear: both;
+}
+
+/* CSS Made for adapting to smaller screen */
+@media screen and (max-width: 600px) {
+  .homeColumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.homeCard {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  padding: 16px;
+  text-align: center;
+  /* background-color: #f1f1f1; */
+}
 /* This is the beginning of CSS styling for the Contact Page */
 .form1 {
-    text-align: left;
-    font-family:fantasy;
-    border: #2b6777;
-    border-style:double;
-    color: white;
-    padding-left: 20px;
+  text-align: left;
+  font-family: fantasy;
+  border: #2b6777;
+  border-style: double;
+  color: white;
+  padding-left: 20px;
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    border-style: groove;
-    background-color: #2b6777;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  border-style: groove;
+  background-color: #2b6777;
+  flex-wrap: wrap;
 }
 
 .contactinfo {
-    color: white;
-    font-family:fantasy;
-    font-size: larger;
-    text-align: left;
-    padding-left: 30px;
+  color: white;
+  font-family: fantasy;
+  font-size: larger;
+  text-align: left;
+  padding-left: 30px;
 }
 
-.address1, .address2, .email, .phone {
-    color: white;
+.address1,
+.address2,
+.email,
+.phone {
+  color: white;
 }
 
 .contactpic {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .headercontact {
-    text-align: center;
+  text-align: center;
 }
 
 /* This is the end of the CSS styling for the Contact Page */
-
-
-
- 
-
