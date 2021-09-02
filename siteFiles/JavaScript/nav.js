@@ -1,4 +1,14 @@
-// This substitutes the empty navHTML class Tag with the inner html
+/* 
+  ********************************************************************************
+
+  Author: Lawrence Darwin Reid
+
+  ********************************************************************************
+ */
+
+// This substitutes the empty navHTML class Tag with the inner html. The directions for this project prevented us from using any snippets of 
+// PHP code that would have served the same purpose.
+
 const nav = document.querySelector(".navHTML");
 
 const navBar = document.createElement("nav");

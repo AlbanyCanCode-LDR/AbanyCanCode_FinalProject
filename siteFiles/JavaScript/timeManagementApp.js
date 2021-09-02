@@ -1,14 +1,46 @@
+/* 
+  ********************************************************************************
+
+  Authors: Lawrence Darwin Reid
+
+  ********************************************************************************
+ */
+/////////////////////////////////////////////////////////////////////////////////////////////////
+/* 
+  ********************************************************************************
+
+                                Time Managment App
+
+Application Description:
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+
+
+  ********************************************************************************
+ */
 function timerSequence(event) {
   console.log("timerSequence");
-  event.preventDefault();
+  event.preventDefault(); // Helps prevent page reload
   iterations = 0; //Reset counter for another run
+
+  // The functions below get user input and eventually convert them into the number of minutes waited untill the alert executes
   timeOne = getInputInMilliseconds("duration1");
   timeTwo = getInputInMilliseconds("duration2");
   timeThree = getInputInMilliseconds("duration3");
   timeFour = getInputInMilliseconds("duration4");
+  /////////////////////////////////////////////////////////////////
   maxIterations = getInputValueAsInt("iterations");
   howMany();
-  return false;
+  return false; //Helps prevent page reload
 }
 
 ///////////////////////////////////////////////////////////
@@ -36,10 +68,6 @@ function sleep(ms) {
 }
 
 //////////////////////////////////////////////////////////
-
-// For the function named first,
-// it takes the value of the Time One Variable and Passes it into
-// sleep through the parameter ms
 
 function first() {
   sleep(timeOne).then(() => {

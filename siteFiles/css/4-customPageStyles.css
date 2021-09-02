@@ -1,11 +1,10 @@
-/* .quote{
-    text-decoration: underline;
-   
-    text-align: center;
-    font-family:fantasy;
-    border: rgb(22, 188, 194);
-    border-style:double;
-} */
+/* 
+  ********************************************************************************
+
+  Authors:
+
+  ********************************************************************************
+ */
 
 /* this is the css for the index.html home page */
 .missionStatement {
@@ -23,13 +22,10 @@
   padding: 0 5px;
 }
 
-/* Clear floats after the columns */
+
 .homePageRow:after {
-  /**/
   content: "";
-  /**/
   display: table;
-  /**/
   clear: both;
 }
 
@@ -44,10 +40,10 @@
 
 /* Style the counter cards */
 .homeCard {
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 3px 3px 0px #2b6777;
   padding: 16px;
   text-align: center;
-  /* background-color: #f1f1f1; */
+ 
 }
 /* This is the beginning of CSS styling for the Contact Page */
 .form1 {
