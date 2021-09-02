@@ -1,517 +1,804 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="shop, affiliates" />
+    <meta name="description" content="Shop Affiliates" />
     <title>Document</title>
-    <!---stylepage-->
-<link rel="stylesheet" href="/css/shopandaffiliate.css">
-<!-- 1. header nav footer styles -->
-<link rel="stylesheet" href="css/1-header-Nav-Footer.css" />
-<!-- 3. 3-mediaStyles -->
-<link rel="stylesheet" href="/css/3-mediaStyles.css" />
-    <title>Home</title>
+
+    <!-- 1. header nav footer styles -->
+    <link rel="stylesheet" href="css/1-header-Nav-Footer.css" />
+    <!-- 2. body 2-bodyElementstyles -->
+    <link rel="stylesheet" href="css/2-bodyElementstyles.css" />
+    <!-- 3. 3-mediaStyles -->
+    <link rel="stylesheet" href="css/3-mediaStyles.css" />
+    <!-- 4. 4-customPageStyles -->
+    <link rel="stylesheet" href="/css/4-customPageStyles.css" />
+
+    <!-- shop and affiliates css -->
+    <link rel="stylesheet" href="/css/shopandaffiliate.css" />
+
+    <!-- Goolge Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/media/img/faviconResources/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/media/img/faviconResources/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/media/img/faviconResources/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/media/img/faviconResources/site.webmanifest" />
+
+    <title>Shop and Affiliate Links</title>
   </head>
+  <!--  /////////////////////  Close of the head tag  ///////////////////////////  -->
+
+  <header class="topOfPageContent"></header>
+  <script src="/JavaScript/header.js"></script>
+
+  <nav class="navHTML"></nav>
+  <script src="JavaScript/nav.js"></script>
+  <br /><br />
+  <main>
+    <div class="quote">
+      <p>
+        "Balance is not something you find, it's something you create." -Jana
+        Kingsford
+      </p>
+    </div>
+ 
+
+ 
 
   <body class="shopandaffiliatebody">
-    <header class="topOfPageContent"></header>
-    <script src="/JavaScript/header.js"></script>
-
-    <nav class="navHTML"></nav>
-    <script src="JavaScript/nav.js"></script>
-<br><br>
-    <main>
-      <div class="quote">
-        <p>
-          "Balance is not something you find, it's something you create." -Jana
-          Kingsford
-        </p>
-      </div>
-    </main>
-
-    <p class="clock"></p>
-    <script>
-      function displayTime() {
-        let date = new Date();
-        let time = date.toLocaleTimeString();
-        document.querySelector('.clock').textContent = time;
-      }
-      displayTime();
-      const createClock = setInterval(displayTime, 1000);
-    </script>
-
-
     <div class="products">
+            
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
 
       <div class="product-laptopmonitorwithipsdisplay">
-  
-          <div class="laptopmonitorwithipsdisplay-container">
-          
-             <div>
-                 <a  href="https://www.amazon.com/HP-23-8-inch-Adjustment-Speakers-VH240a/dp/B072M34RQC/ref=sr_1_4?dchild=1&keywords=screen+that+have+ips+display&qid=1630108194&sr=8-4">
-                     <div>
-          <img class="laptopmonitorwithipsdisplay-img" src="https://m.media-amazon.com/images/I/71trhuzbhML._AC_UY218_.jpg" alt="image of HP laptop montior">
-          </div>
-          </a>
-          </div>
-                 <div>
-                     <a class="laptopmonitorwithipsdisplay-text" href="https://www.amazon.com/HP-23-8-inch-Adjustment-Speakers-VH240a/dp/B072M34RQC/ref=sr_1_4?dchild=1&keywords=screen+that+have+ips+display&qid=1630108194&sr=8-4">
-                         <div>
-          <p> <span class="laptopmonitorwithipsdisplay-texthover">HP VH240a 23.8-Inch Full HD 1080p IPS LED Monitor with Built-In Speakers and VESA Mounting </span> ...</p>
-                 </div>
-                 </a>
-                 </div>
-                 <div>
-                     <a class="laptopmonitorwithipsdisplay-price" href="https://www.amazon.com/HP-23-8-inch-Adjustment-Speakers-VH240a/dp/B072M34RQC/ref=sr_1_4?dchild=1&keywords=screen+that+have+ips+display&qid=1630108194&sr=8-4">
-                         <div>
-                   <p> $213.25 </p>
-                         </a>
-                 </div>
-             </div>
-          </div>
-      </div>
-        
-      
-      <div class="product-monitorscreenprotector">
-      
-          <div class="monitorscreenprotector-container">
-          
-             <div>
-                 <a  href="https://www.amazon.com/Universal-Blocking-Protector-Diagonal-Protection/dp/B086K33WCY/ref=sr_1_1_sspa?dchild=1&keywords=monitor+screen+protector+that+reduce+blue+light&qid=1630109745&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSUxKN0RERUNWWkdSJmVuY3J5cHRlZElkPUEwNDk5NDYwMUc0TDhBMDE2S01UOSZlbmNyeXB0ZWRBZElkPUEwMzQ5NzU1MkREOFZCQjFUOU1GSyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                     <div>
-          <img class="monitorscreenprotector-img" src="https://m.media-amazon.com/images/I/913BBq-LU9L._AC_UY218_.jpg" alt="image of montior screen protector">
-          </div>
-          </a>
-          </div>
-                 <div>
-                     <a class="monitorscreenprotector-text" href="https://www.amazon.com/Universal-Blocking-Protector-Diagonal-Protection/dp/B086K33WCY/ref=sr_1_1_sspa?dchild=1&keywords=monitor+screen+protector+that+reduce+blue+light&qid=1630109745&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSUxKN0RERUNWWkdSJmVuY3J5cHRlZElkPUEwNDk5NDYwMUc0TDhBMDE2S01UOSZlbmNyeXB0ZWRBZElkPUEwMzQ5NzU1MkREOFZCQjFUOU1GSyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                         <div>
-          <p> <span class="monitorscreenprotector-texthover">Universal Blue Light Blocking Screen Protector Panel for 23, 23.6, 23.8, 24 inch Diagonal PC Monitor </span> ...</p>
-                 </div>
-                 </a>
-                 </div>
-                 <div>
-                     <a class="monitorscreenprotector-price" href="https://www.amazon.com/Universal-Blocking-Protector-Diagonal-Protection/dp/B086K33WCY/ref=sr_1_1_sspa?dchild=1&keywords=monitor+screen+protector+that+reduce+blue+light&qid=1630109745&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSUxKN0RERUNWWkdSJmVuY3J5cHRlZElkPUEwNDk5NDYwMUc0TDhBMDE2S01UOSZlbmNyeXB0ZWRBZElkPUEwMzQ5NzU1MkREOFZCQjFUOU1GSyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                         <div>
-                   <p> $55.91  </p>
-                         </a>
-                 </div>
-             </div>
-          </div>
-      </div>
-  
-   
-  
-      <div class="product-electricstandingdesk">
-  
-          <div class="electricstandingdesk-container">
-          
-              <div>
-                  <a  href="https://www.amazon.com/Flexispot-Electric-Standing-Height-Adjustable/dp/B08N5XQKNJ/ref=sr_1_4_sspa?crid=3I9DEHU20PWTV&dchild=1&keywords=electric+standing+desk&qid=1629930759&sprefix=electric+standing+d%2Caps%2C190&sr=8-4-spons&psc=1&smid=A3686AOLDPXXOD&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFUUkpBSTVRSks0QkkmZW5jcnlwdGVkSWQ9QTA0NjYxMTIzTEROTFg1UllQQzdOJmVuY3J5cHRlZEFkSWQ9QTA2MDQ5MTNDWUFQWVVRNU1RT0Qmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl">
-                      <div>
-          <img class="electricstandingdesk-img" src="https://m.media-amazon.com/images/I/614Uf+p-VKS._AC_UL320_.jpg" alt="image of a black electric standing desk">
-          </div>
-          </a>
-          </div>
-                  <div>
-                      <a class="electricstandingdesk-text" href="https://www.amazon.com/Flexispot-Electric-Standing-Height-Adjustable/dp/B08N5XQKNJ/ref=sr_1_4_sspa?crid=3I9DEHU20PWTV&dchild=1&keywords=electric+standing+desk&qid=1629930759&sprefix=electric+standing+d%2Caps%2C190&sr=8-4-spons&psc=1&smid=A3686AOLDPXXOD&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFUUkpBSTVRSks0QkkmZW5jcnlwdGVkSWQ9QTA0NjYxMTIzTEROTFg1UllQQzdOJmVuY3J5cHRlZEFkSWQ9QTA2MDQ5MTNDWUFQWVVRNU1RT0Qmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl">
-                          <div>
-          <p><span class="electricstandingdesk-texthover">Flexispot Standing Desk Height Adjustable Desk Electric Sit Stand Up Desk Home Office Desks 48 x 24 </span> ...</p>
-                  </div>
-                  </a>
-                  </div>
-                  <div>
-                      <a class="electricstandingdesk-price" href="https://www.amazon.com/Flexispot-Electric-Standing-Height-Adjustable/dp/B08N5XQKNJ/ref=sr_1_4_sspa?crid=3I9DEHU20PWTV&dchild=1&keywords=electric+standing+desk&qid=1629930759&sprefix=electric+standing+d%2Caps%2C190&sr=8-4-spons&psc=1&smid=A3686AOLDPXXOD&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFUUkpBSTVRSks0QkkmZW5jcnlwdGVkSWQ9QTA0NjYxMTIzTEROTFg1UllQQzdOJmVuY3J5cHRlZEFkSWQ9QTA2MDQ5MTNDWUFQWVVRNU1RT0Qmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl">
-                          <div>
-                    <p> $249.99 </p>
-                          </a>
-                  </div>
-              </div>
-          </div>
-    </div>
-  
-  
-    <div class="product-manualstandingdesk">
-  
-      <div class="manualstandingdesk-container">
-       
+        <div class="laptopmonitorwithipsdisplay-container">
           <div>
-              <a  href="https://www.amazon.com/FAMISKY-Adjustable-Height-Standing-Workstation/dp/B08HVFFRBQ/ref=sr_1_2_sspa?crid=YBQ9Q5O8W66T&dchild=1&keywords=manual+standing+desk&qid=1630011826&sprefix=manuel+standing%2Caps%2C413&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNFcxRkhUV1BHUVVBJmVuY3J5cHRlZElkPUEwNzc5ODMwMlVRRzlWVzNFV05MVyZlbmNyeXB0ZWRBZElkPUEwMTg0NTA3MzA2U0w2Q0ZDU0YwTSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                  <div>
-      <img class="manualstandingdesk-img" src="https://m.media-amazon.com/images/I/71rq1Gx4c2S._AC_UL320_.jpg" alt="image of a brown manual standing desk">
-      </div>
-      </a>
-      </div>
+            <a
+              href="https://www.amazon.com/HP-23-8-inch-Adjustment-Speakers-VH240a/dp/B072M34RQC/ref=sr_1_4?dchild=1&keywords=screen+that+have+ips+display&qid=1630108194&sr=8-4"
+            >
               <div>
-                  <a class="manualstandingdesk-text" href="https://www.amazon.com/FAMISKY-Adjustable-Height-Standing-Workstation/dp/B08HVFFRBQ/ref=sr_1_2_sspa?crid=YBQ9Q5O8W66T&dchild=1&keywords=manual+standing+desk&qid=1630011826&sprefix=manuel+standing%2Caps%2C413&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNFcxRkhUV1BHUVVBJmVuY3J5cHRlZElkPUEwNzc5ODMwMlVRRzlWVzNFV05MVyZlbmNyeXB0ZWRBZElkPUEwMTg0NTA3MzA2U0w2Q0ZDU0YwTSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                      <div>
-      <p><span class="manualstandingdesk-texthover"> FAMISKY Crank Adjustable Height Standing Desk, 40 x 24 Inches Manual Stand up Desk, Sit Stand Workstation for </span>...</p>
+                <img
+                  class="laptopmonitorwithipsdisplay-img"
+                  src="https://m.media-amazon.com/images/I/71trhuzbhML._AC_UY218_.jpg"
+                  alt="image of HP laptop montior"
+                />
               </div>
-              </a>
-              </div>
-              <div>
-                  <a class="manualstandingdesk-price" href="https://www.amazon.com/FAMISKY-Adjustable-Height-Standing-Workstation/dp/B08HVFFRBQ/ref=sr_1_2_sspa?crid=YBQ9Q5O8W66T&dchild=1&keywords=manual+standing+desk&qid=1630011826&sprefix=manuel+standing%2Caps%2C413&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNFcxRkhUV1BHUVVBJmVuY3J5cHRlZElkPUEwNzc5ODMwMlVRRzlWVzNFV05MVyZlbmNyeXB0ZWRBZElkPUEwMTg0NTA3MzA2U0w2Q0ZDU0YwTSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                      <div>
-                <p> $149.99  </p>
-                      </a>
-              </div>
+            </a>
           </div>
-      </div>
-       </div>
-      
-  
-       <div class="product-leatherdeskpadprotector">
-  
-          <div class="leatherdeskpadprotector-container">
-           
-              <div>
-                  <a  href="https://www.amazon.com/Leather-Protector-Non-Slip-Blotter-Waterproof/dp/B088DB4MVZ/ref=sr_1_12?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-12">
-                      <div>
-          <img class="leatherdeskpadprotector-img" src="https://m.media-amazon.com/images/I/61rbGIPKWAL._AC_UL320_.jpg" alt="image of a leather desk pad protector">
-          </div>
-          </a>
-          </div>
-                  <div>
-                      <a class="leatherdeskpadprotector-text" href="https://www.amazon.com/Leather-Protector-Non-Slip-Blotter-Waterproof/dp/B088DB4MVZ/ref=sr_1_12?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-12">
-                          <div>
-          <p><span class="leatherdeskpadprotector-texthover">Leather Desk Pad Protector,Mouse Pad,Office Desk Mat, Non-Slip PU Leather Desk Blotter,Laptop Desk </span> ...</p>
-                  </div>
-                  </a>
-                  </div>
-                  <div>
-                      <a class="leatherdeskpadprotector-reducedprice" href="https://www.amazon.com/Leather-Protector-Non-Slip-Blotter-Waterproof/dp/B088DB4MVZ/ref=sr_1_12?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-12">
-                          <div>
-                    <p>  $13.99  <span class="leatherdeskpadprotector-price"> $16.99 </span></p>
-                          </a>
-                  </div>
-              </div>
-          </div>
-      </div>
-  
-  
-      <div class="product-standalonedigitalclock">
-  
-          <div class="standalonedigitalclock-container">
-           
-              <div>
-                  <a  href="https://www.amazon.com/dp/B08JG6F6TG?pd_rd_i=B08JG6F6TG&pd_rd_w=pgufW&pf_rd_p=3465d0d7-4e28-4692-b633-326c458deaa4&pd_rd_wg=vtNNo&pf_rd_r=YVERPVVENQB2BP46WGQ1&pd_rd_r=d7afbdc2-162c-404a-b6f6-cc50c2a9f894">
-                      <div>
-          <img class="standalonedigitalclock-img" src="https://m.media-amazon.com/images/I/61iVd3TGEAL._QL65_AC_UL640_.jpg" alt="image of a black stand alone digital clock">
-          </div>
-          </a>
-          </div>
-                  <div>
-                      <a class="standalonedigitalclock-text" href="https://www.amazon.com/dp/B08JG6F6TG?pd_rd_i=B08JG6F6TG&pd_rd_w=pgufW&pf_rd_p=3465d0d7-4e28-4692-b633-326c458deaa4&pd_rd_wg=vtNNo&pf_rd_r=YVERPVVENQB2BP46WGQ1&pd_rd_r=d7afbdc2-162c-404a-b6f6-cc50c2a9f894">
-                          <div>
-          <p><span class="standalonedigitalclock-texthover">NOKLEAD Digital Alarm Clock: Large 6.5" LED Display Clock with USB Charger </span> ...</p>
-                  </div>
-                  </a>
-                  </div>
-                  <div>
-                      <a class="standalonedigitalclock-reducedprice" href="https://www.amazon.com/dp/B08JG6F6TG?pd_rd_i=B08JG6F6TG&pd_rd_w=pgufW&pf_rd_p=3465d0d7-4e28-4692-b633-326c458deaa4&pd_rd_wg=vtNNo&pf_rd_r=YVERPVVENQB2BP46WGQ1&pd_rd_r=d7afbdc2-162c-404a-b6f6-cc50c2a9f894">
-                          <div>
-                    <p> $17.99 <span class="standalonedigitalclock-price".> $19.99 </span></p>
-                          </a>
-                  </div>
-              </div>
-          </div>
-      </div>
-      
-  
-       <div class="product-dualscreenstand">
-  
-          <div class="dualscreenstand-container">
-           
-              <div>
-                  <a  href="https://www.amazon.com/Huanuo-Dual-Monitor-Stand-Adjustable/dp/B08G8M72ZG/ref=sr_1_8?dchild=1&keywords=dual+screen+stand+for+desk&qid=1630015234&sr=8-8">
-                      <div>
-          <img class="dualscreenstand-img" src="https://m.media-amazon.com/images/I/71zDaeZ6oHL._AC_UL320_.jpg" alt="image of a dual screen stand">
-          </div>
-          </a>
-          </div>
-                  <div>
-                      <a class="dualscreenstand-text" href="https://www.amazon.com/Huanuo-Dual-Monitor-Stand-Adjustable/dp/B08G8M72ZG/ref=sr_1_8?dchild=1&keywords=dual+screen+stand+for+desk&qid=1630015234&sr=8-8">
-                          <div>
-          <p><span class="dualscreenstand-texthover">HUANUO Dual Monitor Stand - Height Adjustable Gas Spring Arm Swivel Monitor Desk Mount Fits Two 22 to 32 inch Compute</span> ...</p>
-                  </div>
-                  </a>
-                  </div>
-                  <div>
-                      <a class="dualscreenstand-reducedprice" href="https://www.amazon.com/Huanuo-Dual-Monitor-Stand-Adjustable/dp/B08G8M72ZG/ref=sr_1_8?dchild=1&keywords=dual+screen+stand+for+desk&qid=1630015234&sr=8-8">
-                          <div>
-                    <p> $52.99<span class="dualscreenstand-price".> $56.99</span></p>
-                          </a>
-                  </div>
-              </div>
-          </div>
-      </div>
-  
-  
-      <div class="product-triplescreenstand">
-  
-          <div class="triplescreenstand-container">
-          
-             <div>
-                 <a  href="https://www.amazon.com/TechOrbits-Three-Monitor-Stand-Mount/dp/B075SRGSK1/ref=sr_1_14?crid=1005UQI38890C&dchild=1&keywords=triple+screen+stand&qid=1630030919&sprefix=triple+screen+stan%2Caps%2C204&sr=8-14">
-                     <div>
-          <img class="triplescreenstand-img" src="https://m.media-amazon.com/images/I/81t13XZdv6L._AC_UL320_.jpg" alt="image of a triple screen stand">
-          </div>
-          </a>
-          </div>
-                 <div>
-                     <a class="triplescreenstand-text" href="https://www.amazon.com/TechOrbits-Three-Monitor-Stand-Mount/dp/B075SRGSK1/ref=sr_1_14?crid=1005UQI38890C&dchild=1&keywords=triple+screen+stand&qid=1630030919&sprefix=triple+screen+stan%2Caps%2C204&sr=8-14">
-                         <div>
-          <p><span class="triplescreenstand-texthover"> TechOrbits Triple Monitor Stand - Desk Mount Arms for 13-inch to 30-inch Screen Monitors with Full Motion Swivel Technology</span> ...</p>
-                 </div>
-                 </a>
-                 </div>
-                 <div>
-                     <a class="triplescreenstand-reducedprice" href="https://www.amazon.com/TechOrbits-Three-Monitor-Stand-Mount/dp/B075SRGSK1/ref=sr_1_14?crid=1005UQI38890C&dchild=1&keywords=triple+screen+stand&qid=1630030919&sprefix=triple+screen+stan%2Caps%2C204&sr=8-14">
-                         <div>
-                   <p>  $129.97 <span class="triplescreenstand-price"> $175.43 </span></p>
-                         </a>
-               </div>
-             </div>
-           </div>
-         </div>
-  
-      
-  <div class="product-streamdeck">
-  
-      <div class="streamdeck-container">
-      
-         <div>
-             <a  href="https://www.amazon.com/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P/ref=sr_1_1_sspa?dchild=1&keywords=stream+deck&qid=1630102531&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUThHMjhFNjhXOExDJmVuY3J5cHRlZElkPUEwMDE1ODk2MzFWRkk4VkpFSUkyQiZlbmNyeXB0ZWRBZElkPUEwNDMzMDcxT1g2ME9FSE5WNThVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">
-                 <div>
-      <img class="streamdeck-img" src="https://m.media-amazon.com/images/I/710R9YpV9nL._AC_UY218_.jpg" alt="image of a stream deck">
-      </div>
-      </a>
-      </div>
-             <div>
-                 <a class="streamdeck-text" href="https://www.amazon.com/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P/ref=sr_1_1_sspa?dchild=1&keywords=stream+deck&qid=1630102531&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUThHMjhFNjhXOExDJmVuY3J5cHRlZElkPUEwMDE1ODk2MzFWRkk4VkpFSUkyQiZlbmNyeXB0ZWRBZElkPUEwNDMzMDcxT1g2ME9FSE5WNThVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">
-                     <div>
-      <p>Elgato Stream Deck - Live Content Creation Controller with 15 Customizable LCD Keys, Adjustable Stand for Windows 10 and macOS 10.13 or Late (10GAA9901) </p>
-             </div>
-             </a>
-             </div>
-             <div>
-                 <a class="streamdeck-price" href="https://www.amazon.com/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P/ref=sr_1_1_sspa?dchild=1&keywords=stream+deck&qid=1630102531&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUThHMjhFNjhXOExDJmVuY3J5cHRlZElkPUEwMDE1ODk2MzFWRkk4VkpFSUkyQiZlbmNyeXB0ZWRBZElkPUEwNDMzMDcxT1g2ME9FSE5WNThVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">
-                     <div>
-               <p> $149.99</p>
-                     </a>
-           </div>
-         </div>
-       </div>
-     </div>
-     
-  
-     <div class="product-cleaninggel">
-  
-      <div class="cleaninggel-container">
-       
           <div>
-              <a  href="https://www.amazon.com/Keyboard-Universal-Keyboards-Calculators-ColorCoral/dp/B07GW9TJ3G/ref=sr_1_33?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-33">
-                  <div>
-      <img class="cleaninggel-img" src="https://m.media-amazon.com/images/I/71+pIitx5gS._AC_UL320_.jpg" alt="image of a cleaning gel">
-      </div>
-      </a>
-      </div>
+            <a
+              class="laptopmonitorwithipsdisplay-text"
+              href="https://www.amazon.com/HP-23-8-inch-Adjustment-Speakers-VH240a/dp/B072M34RQC/ref=sr_1_4?dchild=1&keywords=screen+that+have+ips+display&qid=1630108194&sr=8-4"
+            >
               <div>
-                  <a class="cleaninggel-text" href="https://www.amazon.com/Keyboard-Universal-Keyboards-Calculators-ColorCoral/dp/B07GW9TJ3G/ref=sr_1_33?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-33">
-                      <div>
-      <p><span class="cleaninggel-texthover">Cleaning Gel Universal Dust Cleaner for PC Keyboard Cleaning Car Detailing Laptop Dusting Home and Office </span> ...</p>
+                <p>
+                  <span class="laptopmonitorwithipsdisplay-texthover"
+                    >HP VH240a 23.8-Inch Full HD 1080p IPS LED Monitor with
+                    Built-In Speakers and VESA Mounting
+                  </span>
+                  ...
+                </p>
               </div>
-              </a>
-              </div>
-              <div>
-                  <a class="cleaninggel-reducedprice" href="https://www.amazon.com/Keyboard-Universal-Keyboards-Calculators-ColorCoral/dp/B07GW9TJ3G/ref=sr_1_33?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-33">
-                      <div>
-                <p>   $6.99  <span class="cleaninggel-price"> $9.99 </span></p>
-                      </a>
-              </div>
+            </a>
           </div>
-      </div>
-  </div>
-  
-  
-  <div class="product-bluelightfilterglasses">
-  
-      <div class="bluelightfilterglasses-container">
-      
-         <div>
-             <a  href="https://www.amazon.com/Gunnar-Optiks-One-Piece-Construction-Anti-Reflective/dp/B001DUQU0A/ref=sr_1_1_sspa?dchild=1&keywords=gunnar+blue+light+filter+glasses&qid=1630106671&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR000VTVMSTc1WTRGJmVuY3J5cHRlZElkPUEwNTUzNDQxMVpUQVQ0UlpQVlJYNiZlbmNyeXB0ZWRBZElkPUEwMTE1MDMwMkNDUks3M0tDSUpXNyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                 <div>
-      <img class="bluelightfilterglasses-img" src="https://m.media-amazon.com/images/I/81EzKoyfRzL._AC_UY218_.jpg" alt="image of blue light filtering glasses">
-      </div>
-      </a>
-      </div>
-             <div>
-                 <a class="bluelightfilterglasses-text" href="https://www.amazon.com/Gunnar-Optiks-One-Piece-Construction-Anti-Reflective/dp/B001DUQU0A/ref=sr_1_1_sspa?dchild=1&keywords=gunnar+blue+light+filter+glasses&qid=1630106671&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR000VTVMSTc1WTRGJmVuY3J5cHRlZElkPUEwNTUzNDQxMVpUQVQ0UlpQVlJYNiZlbmNyeXB0ZWRBZElkPUEwMTE1MDMwMkNDUks3M0tDSUpXNyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                     <div>
-      <p><span class="bluelightfilterglasses-texthover">Gaming Glasses | Blue Light Blocking Glasses | SheaDog/Onyx by Gunnar | 65% Blue Light Protection </span> </p>
-             </div>
-             </a>
-             </div>
-             <div>
-                 <a class="bluelightfilterglasses-price" href="https://www.amazon.com/Gunnar-Optiks-One-Piece-Construction-Anti-Reflective/dp/B001DUQU0A/ref=sr_1_1_sspa?dchild=1&keywords=gunnar+blue+light+filter+glasses&qid=1630106671&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR000VTVMSTc1WTRGJmVuY3J5cHRlZElkPUEwNTUzNDQxMVpUQVQ0UlpQVlJYNiZlbmNyeXB0ZWRBZElkPUEwMTE1MDMwMkNDUks3M0tDSUpXNyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                     <div>
-               <p>$57.99 </p>
-                     </a>
-             </div>
-         </div>
-      </div>
-  </div>
-  
-  
-  <div class="product-ergonomicChair">
-  
-      <div class="ergonomicChair-container">
-      
-         <div>
-             <a  href="https://www.amazon.com/Hbada-Chair-Office-Adjustable-Height/dp/B08F2CKXTY/ref=sxin_12_pa_sp_search_thematic_sspa?cv_ct_cx=ergonomic+chair&dchild=1&keywords=ergonomice+chair&pd_rd_i=B08F2CKXTY&pd_rd_r=170942b1-ce4f-4e7c-b1b8-6202909a6e38&pd_rd_w=ebDWF&pd_rd_wg=GJGAk&pf_rd_p=3b2adfc6-e3ad-467a-9f38-271e811048b0&pf_rd_r=XRJH43338HPFK7ZK7AGC&qid=1630097071&sr=1-1-a73d1c8c-2fd2-4f19-aa41-2df022bcb241-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMkVDNzJLU0Q5Ujc1JmVuY3J5cHRlZElkPUEwMDgxNDM5MjZVV1AxV1NVSzVEUiZlbmNyeXB0ZWRBZElkPUEwMDA2OTk4MkdFUVBFODVIOFhTVSZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                 <div>
-      <img class="ergonomicChair-img" src="https://m.media-amazon.com/images/I/61NvIq-Lw8L._AC_UL320_.jpg" alt="image of a black ergonomic chair">
-      </div>
-      </a>
-      </div>
-             <div>
-                 <a class="ergonomicChair-text" href="https://www.amazon.com/Hbada-Chair-Office-Adjustable-Height/dp/B08F2CKXTY/ref=sxin_12_pa_sp_search_thematic_sspa?cv_ct_cx=ergonomic+chair&dchild=1&keywords=ergonomice+chair&pd_rd_i=B08F2CKXTY&pd_rd_r=170942b1-ce4f-4e7c-b1b8-6202909a6e38&pd_rd_w=ebDWF&pd_rd_wg=GJGAk&pf_rd_p=3b2adfc6-e3ad-467a-9f38-271e811048b0&pf_rd_r=XRJH43338HPFK7ZK7AGC&qid=1630097071&sr=1-1-a73d1c8c-2fd2-4f19-aa41-2df022bcb241-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMkVDNzJLU0Q5Ujc1JmVuY3J5cHRlZElkPUEwMDgxNDM5MjZVV1AxV1NVSzVEUiZlbmNyeXB0ZWRBZElkPUEwMDA2OTk4MkdFUVBFODVIOFhTVSZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                     <div>
-      <p>Hbada Home Desk Chair Mesh Office Chair with Arms and Adjustable Height, Black </p>
-             </div>
-             </a>
-             </div>
-             <div>
-                 <a class="ergonomicChair-price" href="https://www.amazon.com/Hbada-Chair-Office-Adjustable-Height/dp/B08F2CKXTY/ref=sxin_12_pa_sp_search_thematic_sspa?cv_ct_cx=ergonomic+chair&dchild=1&keywords=ergonomice+chair&pd_rd_i=B08F2CKXTY&pd_rd_r=170942b1-ce4f-4e7c-b1b8-6202909a6e38&pd_rd_w=ebDWF&pd_rd_wg=GJGAk&pf_rd_p=3b2adfc6-e3ad-467a-9f38-271e811048b0&pf_rd_r=XRJH43338HPFK7ZK7AGC&qid=1630097071&sr=1-1-a73d1c8c-2fd2-4f19-aa41-2df022bcb241-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMkVDNzJLU0Q5Ujc1JmVuY3J5cHRlZElkPUEwMDgxNDM5MjZVV1AxV1NVSzVEUiZlbmNyeXB0ZWRBZElkPUEwMDA2OTk4MkdFUVBFODVIOFhTVSZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=">
-                     <div>
-               <p>$79.99 </p>
-                     </a>
-             </div>
-         </div>
-      </div>
-  </div>
-  
-  
-  <div class="product-seatcushion">
-  
-      <div class="seatcushion-container">
-         
-         <div>
-             <a  href="https://www.amazon.com/ComfiLife-Gel-Enhanced-Seat-Cushion/dp/B014F18ZGU/ref=sr_1_1_sspa?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1629909117&sprefix=work+from+home%2Caps%2C199&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySzFCRlBaQlBWNEJDJmVuY3J5cHRlZElkPUEwODY5MDc3MUEwOVdPMjdWMTRCRSZlbmNyeXB0ZWRBZElkPUEwNjc4NzE3Q0pXNkdYM1FTR1JKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">
-                 <div>
-      <img class="seatcushion-img" src="https://m.media-amazon.com/images/I/81cV9Pxp3FL._AC_UL320_.jpg" alt="image of a grey seat cushion">
-      </div>
-      </a>
-      </div>
-             <div>
-                 <a class="seatcushion-text" href="https://www.amazon.com/ComfiLife-Gel-Enhanced-Seat-Cushion/dp/B014F18ZGU/ref=sr_1_1_sspa?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1629909117&sprefix=work+from+home%2Caps%2C199&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySzFCRlBaQlBWNEJDJmVuY3J5cHRlZElkPUEwODY5MDc3MUEwOVdPMjdWMTRCRSZlbmNyeXB0ZWRBZElkPUEwNjc4NzE3Q0pXNkdYM1FTR1JKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">
-                     <div>
-      <p><span class="seatcushion-texthover">ComfiLife Gel Enhanced Seat Cushion - Non-Slip Orthopedic Gel & Memory Foam Coccyx Cushion for Tailbone Pain-</span> ...</p>
-             </div>
-             </a>
-             </div>
-             <div>
-                 <a class="seatcushion-reducedprice" href="https://www.amazon.com/ComfiLife-Gel-Enhanced-Seat-Cushion/dp/B014F18ZGU/ref=sr_1_1_sspa?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1629909117&sprefix=work+from+home%2Caps%2C199&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySzFCRlBaQlBWNEJDJmVuY3J5cHRlZElkPUEwODY5MDc3MUEwOVdPMjdWMTRCRSZlbmNyeXB0ZWRBZElkPUEwNjc4NzE3Q0pXNkdYM1FTR1JKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">
-                     <div>
-               <p>  $30.55 <span class="seatcushion-price">$36.95</span></p>
-                     </a>
-             </div>
-         </div>
-      </div>
-      </div>
-  
-  
-  <div class="product-lumbersupportpillow">
-  
-      <div class="lumbersupportpillow-container">
-       
-          <div>
-              <a  href="https://www.amazon.com/Back-Cushion-Lumbar-Support-Pillow/dp/B01IJNJAZ0/ref=sr_1_52?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-52">
-                  <div>
-      <img class="lumbersupportpillow-img" src="https://m.media-amazon.com/images/I/81eufp479HL._AC_UL320_.jpg" alt="image of a black lumber support pillow">
-      </div>
-      </a>
-      </div>
-              <div>
-                  <a class="lumbersupportpillow-text" href="https://www.amazon.com/Back-Cushion-Lumbar-Support-Pillow/dp/B01IJNJAZ0/ref=sr_1_52?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-52">
-                      <div>
-      <p>Everlasting Comfort Lumbar Support Pillow for Office Desk Chair - Memory Foam Back Cushion (Black)</p>
-              </div>
-              </a>
-              </div>
-              <div>
-                  <a class="lumbersupportpillow-reducedprice" href="https://www.amazon.com/Back-Cushion-Lumbar-Support-Pillow/dp/B01IJNJAZ0/ref=sr_1_52?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-52">
-                      <div>
-                <p>$32.95  <span class="lumbersupportpillow-price"> $39.95</span></p>
-                      </a>
-              </div>
-          </div>
-      </div>
-  </div>
-  
-  
-  <div class="product-footrestforunderthedesk">
-  
-      <div class="footrestforunderthedesk-container">
-       
-          <div>
-              <a  href="https://www.amazon.com/Foot-Rest-Under-Desk-Footstool/dp/B07PGLBCFG/ref=sr_1_2?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-2">
-                  <div>
-      <img class="footrestforunderthedesk-img" src="https://m.media-amazon.com/images/I/71qOQKWTkpL._AC_UL320_.jpg" alt="image of a black office foot rest for under the desk">
-      </div>
-      </a>
-      </div>
-              <div>
-                  <a class="footrestforunderthedesk-text" href="https://www.amazon.com/Foot-Rest-Under-Desk-Footstool/dp/B07PGLBCFG/ref=sr_1_2?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-2">
-                      <div>
-      <p><span class="footrestforunderthedesk-texthover">Everlasting Comfort Office Foot Rest for Under Desk - Ergonomic Memory Foam Foot Stool Pillow for Work, Gaming, Computer, </span> ...</p>
-              </div>
-              </a>
-              </div>
-              <div>
-                  <a class="footrestforunderthedesk-reducedprice" href="https://www.amazon.com/Foot-Rest-Under-Desk-Footstool/dp/B07PGLBCFG/ref=sr_1_2?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-2">
-                      <div>
-                <p> $25.45  <span class="footrestforunderthedesk-price"> $39.95 </span></p>
-                      </a>
-              </div>
-          </div>
-      </div>
-  </div>
-  
-  
-  <div class="product-neckandbackmassager">
-  
-      <div class="neckandbackmassager-container">
-       
-          <div>
-              <a  href="https://www.amazon.com/Nekteck-Back-Neck-Shoulder-Massager/dp/B01BZOKLOO/ref=sr_1_6?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-6">
-                  <div>
-      <img class="neckandbackmassager-img" src="https://m.media-amazon.com/images/I/71PGkxLq-DL._AC_UL320_.jpg" alt="image of a black neck and back massager">
-      </div>
-      </a>
-      </div>
-              <div>
-                  <a class="neckandbackmassager-text" href="https://www.amazon.com/Nekteck-Back-Neck-Shoulder-Massager/dp/B01BZOKLOO/ref=sr_1_6?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-6">
-                      <div>
-      <p><span class="neckandbackmassager-texthover"> Shiatsu Neck and Back Massager with Soothing Heat, Nekteck Electric Deep Tissue 3D Kneading Massage Pillow for</span> ...</p>
-              </div>
-              </a>
-              </div>
-              <div>
-                  <a class="neckandbackmassager-reducedprice" href="https://www.amazon.com/Nekteck-Back-Neck-Shoulder-Massager/dp/B01BZOKLOO/ref=sr_1_6?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-6">
-                      <div>
-                <p>  $39.99  <span class="neckandbackmassager-price"> ($39.99/Count)  </span></p>
-                      </a>
-              </div>
-          </div>
-      </div>
-  </div>
-  
-  </div>
 
+          <a
+            class="laptopmonitorwithipsdisplay-price"
+            href="https://www.amazon.com/HP-23-8-inch-Adjustment-Speakers-VH240a/dp/B072M34RQC/ref=sr_1_4?dchild=1&keywords=screen+that+have+ips+display&qid=1630108194&sr=8-4"
+          ></a>
+          <div>
+            <p>$213.25</p>
+          </div>
+        </div>
+      </div>
+            
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-monitorscreenprotector">
+        <div class="monitorscreenprotector-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Universal-Blocking-Protector-Diagonal-Protection/dp/B086K33WCY/ref=sr_1_1_sspa?dchild=1&keywords=monitor+screen+protector+that+reduce+blue+light&qid=1630109745&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSUxKN0RERUNWWkdSJmVuY3J5cHRlZElkPUEwNDk5NDYwMUc0TDhBMDE2S01UOSZlbmNyeXB0ZWRBZElkPUEwMzQ5NzU1MkREOFZCQjFUOU1GSyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            >
+              <div>
+                <img
+                  class="monitorscreenprotector-img"
+                  src="https://m.media-amazon.com/images/I/913BBq-LU9L._AC_UY218_.jpg"
+                  alt="image of montior screen protector"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="monitorscreenprotector-text"
+              href="https://www.amazon.com/Universal-Blocking-Protector-Diagonal-Protection/dp/B086K33WCY/ref=sr_1_1_sspa?dchild=1&keywords=monitor+screen+protector+that+reduce+blue+light&qid=1630109745&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSUxKN0RERUNWWkdSJmVuY3J5cHRlZElkPUEwNDk5NDYwMUc0TDhBMDE2S01UOSZlbmNyeXB0ZWRBZElkPUEwMzQ5NzU1MkREOFZCQjFUOU1GSyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            >
+              <div>
+                <p>
+                  <span class="monitorscreenprotector-texthover"
+                    >Universal Blue Light Blocking Screen Protector Panel for
+                    23, 23.6, 23.8, 24 inch Diagonal PC Monitor
+                  </span>
+                  ...
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="monitorscreenprotector-price"
+              href="https://www.amazon.com/Universal-Blocking-Protector-Diagonal-Protection/dp/B086K33WCY/ref=sr_1_1_sspa?dchild=1&keywords=monitor+screen+protector+that+reduce+blue+light&qid=1630109745&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzSUxKN0RERUNWWkdSJmVuY3J5cHRlZElkPUEwNDk5NDYwMUc0TDhBMDE2S01UOSZlbmNyeXB0ZWRBZElkPUEwMzQ5NzU1MkREOFZCQjFUOU1GSyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            >
+            </a>
+            <div>
+              <p>$55.91</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-electricstandingdesk">
+        <div class="electricstandingdesk-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Flexispot-Electric-Standing-Height-Adjustable/dp/B08N5XQKNJ/ref=sr_1_4_sspa?crid=3I9DEHU20PWTV&dchild=1&keywords=electric+standing+desk&qid=1629930759&sprefix=electric+standing+d%2Caps%2C190&sr=8-4-spons&psc=1&smid=A3686AOLDPXXOD&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFUUkpBSTVRSks0QkkmZW5jcnlwdGVkSWQ9QTA0NjYxMTIzTEROTFg1UllQQzdOJmVuY3J5cHRlZEFkSWQ9QTA2MDQ5MTNDWUFQWVVRNU1RT0Qmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl"
+            >
+              <div>
+                <img
+                  class="electricstandingdesk-img"
+                  src="https://m.media-amazon.com/images/I/614Uf+p-VKS._AC_UL320_.jpg"
+                  alt="image of a black electric standing desk"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="electricstandingdesk-text"
+              href="https://www.amazon.com/Flexispot-Electric-Standing-Height-Adjustable/dp/B08N5XQKNJ/ref=sr_1_4_sspa?crid=3I9DEHU20PWTV&dchild=1&keywords=electric+standing+desk&qid=1629930759&sprefix=electric+standing+d%2Caps%2C190&sr=8-4-spons&psc=1&smid=A3686AOLDPXXOD&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFUUkpBSTVRSks0QkkmZW5jcnlwdGVkSWQ9QTA0NjYxMTIzTEROTFg1UllQQzdOJmVuY3J5cHRlZEFkSWQ9QTA2MDQ5MTNDWUFQWVVRNU1RT0Qmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl"
+            >
+              <div>
+                <p>
+                  <span class="electricstandingdesk-texthover"
+                    >Flexispot Standing Desk Height Adjustable Desk Electric Sit
+                    Stand Up Desk Home Office Desks 48 x 24
+                  </span>
+                  ...
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="electricstandingdesk-price"
+              href="https://www.amazon.com/Flexispot-Electric-Standing-Height-Adjustable/dp/B08N5XQKNJ/ref=sr_1_4_sspa?crid=3I9DEHU20PWTV&dchild=1&keywords=electric+standing+desk&qid=1629930759&sprefix=electric+standing+d%2Caps%2C190&sr=8-4-spons&psc=1&smid=A3686AOLDPXXOD&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFUUkpBSTVRSks0QkkmZW5jcnlwdGVkSWQ9QTA0NjYxMTIzTEROTFg1UllQQzdOJmVuY3J5cHRlZEFkSWQ9QTA2MDQ5MTNDWUFQWVVRNU1RT0Qmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl"
+            ></a>
+            <div>
+              <p>$249.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-manualstandingdesk">
+        <div class="manualstandingdesk-container">
+          <div>
+            <a
+              href="https://www.amazon.com/FAMISKY-Adjustable-Height-Standing-Workstation/dp/B08HVFFRBQ/ref=sr_1_2_sspa?crid=YBQ9Q5O8W66T&dchild=1&keywords=manual+standing+desk&qid=1630011826&sprefix=manuel+standing%2Caps%2C413&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNFcxRkhUV1BHUVVBJmVuY3J5cHRlZElkPUEwNzc5ODMwMlVRRzlWVzNFV05MVyZlbmNyeXB0ZWRBZElkPUEwMTg0NTA3MzA2U0w2Q0ZDU0YwTSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            >
+              <div>
+                <img
+                  class="manualstandingdesk-img"
+                  src="https://m.media-amazon.com/images/I/71rq1Gx4c2S._AC_UL320_.jpg"
+                  alt="image of a brown manual standing desk"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="manualstandingdesk-text"
+              href="https://www.amazon.com/FAMISKY-Adjustable-Height-Standing-Workstation/dp/B08HVFFRBQ/ref=sr_1_2_sspa?crid=YBQ9Q5O8W66T&dchild=1&keywords=manual+standing+desk&qid=1630011826&sprefix=manuel+standing%2Caps%2C413&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNFcxRkhUV1BHUVVBJmVuY3J5cHRlZElkPUEwNzc5ODMwMlVRRzlWVzNFV05MVyZlbmNyeXB0ZWRBZElkPUEwMTg0NTA3MzA2U0w2Q0ZDU0YwTSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            >
+              <div>
+                <p>
+                  <span class="manualstandingdesk-texthover">
+                    FAMISKY Crank Adjustable Height Standing Desk, 40 x 24
+                    Inches Manual Stand up Desk, Sit Stand Workstation for </span
+                  >...
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="manualstandingdesk-price"
+              href="https://www.amazon.com/FAMISKY-Adjustable-Height-Standing-Workstation/dp/B08HVFFRBQ/ref=sr_1_2_sspa?crid=YBQ9Q5O8W66T&dchild=1&keywords=manual+standing+desk&qid=1630011826&sprefix=manuel+standing%2Caps%2C413&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzNFcxRkhUV1BHUVVBJmVuY3J5cHRlZElkPUEwNzc5ODMwMlVRRzlWVzNFV05MVyZlbmNyeXB0ZWRBZElkPUEwMTg0NTA3MzA2U0w2Q0ZDU0YwTSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            ></a>
+            <div>
+              <p>$149.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-leatherdeskpadprotector">
+        <div class="leatherdeskpadprotector-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Leather-Protector-Non-Slip-Blotter-Waterproof/dp/B088DB4MVZ/ref=sr_1_12?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-12"
+            >
+              <div>
+                <img
+                  class="leatherdeskpadprotector-img"
+                  src="https://m.media-amazon.com/images/I/61rbGIPKWAL._AC_UL320_.jpg"
+                  alt="image of a leather desk pad protector"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="leatherdeskpadprotector-text"
+              href="https://www.amazon.com/Leather-Protector-Non-Slip-Blotter-Waterproof/dp/B088DB4MVZ/ref=sr_1_12?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-12"
+            >
+              <div>
+                <p>
+                  <span class="leatherdeskpadprotector-texthover"
+                    >Leather Desk Pad Protector,Mouse Pad,Office Desk Mat,
+                    Non-Slip PU Leather Desk Blotter,Laptop Desk
+                  </span>
+                  ...
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="leatherdeskpadprotector-reducedprice"
+              href="https://www.amazon.com/Leather-Protector-Non-Slip-Blotter-Waterproof/dp/B088DB4MVZ/ref=sr_1_12?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-12"
+            ></a>
+            <div>
+              <p>
+                $13.99
+                <span class="leatherdeskpadprotector-price"> $16.99 </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-standalonedigitalclock">
+        <div class="standalonedigitalclock-container">
+          <div>
+            <a
+              href="https://www.amazon.com/dp/B08JG6F6TG?pd_rd_i=B08JG6F6TG&pd_rd_w=pgufW&pf_rd_p=3465d0d7-4e28-4692-b633-326c458deaa4&pd_rd_wg=vtNNo&pf_rd_r=YVERPVVENQB2BP46WGQ1&pd_rd_r=d7afbdc2-162c-404a-b6f6-cc50c2a9f894"
+            >
+              <div>
+                <img
+                  class="standalonedigitalclock-img"
+                  src="https://m.media-amazon.com/images/I/61iVd3TGEAL._QL65_AC_UL640_.jpg"
+                  alt="image of a black stand alone digital clock"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="standalonedigitalclock-text"
+              href="https://www.amazon.com/dp/B08JG6F6TG?pd_rd_i=B08JG6F6TG&pd_rd_w=pgufW&pf_rd_p=3465d0d7-4e28-4692-b633-326c458deaa4&pd_rd_wg=vtNNo&pf_rd_r=YVERPVVENQB2BP46WGQ1&pd_rd_r=d7afbdc2-162c-404a-b6f6-cc50c2a9f894"
+            >
+              <div>
+                <p>
+                  <span class="standalonedigitalclock-texthover"
+                    >NOKLEAD Digital Alarm Clock: Large 6.5" LED Display Clock
+                    with USB Charger
+                  </span>
+                  ...
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="standalonedigitalclock-reducedprice"
+              href="https://www.amazon.com/dp/B08JG6F6TG?pd_rd_i=B08JG6F6TG&pd_rd_w=pgufW&pf_rd_p=3465d0d7-4e28-4692-b633-326c458deaa4&pd_rd_wg=vtNNo&pf_rd_r=YVERPVVENQB2BP46WGQ1&pd_rd_r=d7afbdc2-162c-404a-b6f6-cc50c2a9f894"
+            ></a>
+            <div>
+              <p>
+                $17.99
+                <span class="standalonedigitalclock-price" .> $19.99 </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-dualscreenstand">
+        <div class="dualscreenstand-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Huanuo-Dual-Monitor-Stand-Adjustable/dp/B08G8M72ZG/ref=sr_1_8?dchild=1&keywords=dual+screen+stand+for+desk&qid=1630015234&sr=8-8"
+            >
+              <div>
+                <img
+                  class="dualscreenstand-img"
+                  src="https://m.media-amazon.com/images/I/71zDaeZ6oHL._AC_UL320_.jpg"
+                  alt="image of a dual screen stand"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="dualscreenstand-text"
+              href="https://www.amazon.com/Huanuo-Dual-Monitor-Stand-Adjustable/dp/B08G8M72ZG/ref=sr_1_8?dchild=1&keywords=dual+screen+stand+for+desk&qid=1630015234&sr=8-8"
+            >
+              <div>
+                <p>
+                  <span class="dualscreenstand-texthover"
+                    >HUANUO Dual Monitor Stand - Height Adjustable Gas Spring
+                    Arm Swivel Monitor Desk Mount Fits Two 22 to 32 inch
+                    Compute</span
+                  >
+                  ...
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="dualscreenstand-reducedprice"
+              href="https://www.amazon.com/Huanuo-Dual-Monitor-Stand-Adjustable/dp/B08G8M72ZG/ref=sr_1_8?dchild=1&keywords=dual+screen+stand+for+desk&qid=1630015234&sr=8-8"
+            ></a>
+            <div>
+              <p>$52.99<span class="dualscreenstand-price" .> $56.99</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-triplescreenstand">
+        <div class="triplescreenstand-container">
+          <div>
+            <a
+              href="https://www.amazon.com/TechOrbits-Three-Monitor-Stand-Mount/dp/B075SRGSK1/ref=sr_1_14?crid=1005UQI38890C&dchild=1&keywords=triple+screen+stand&qid=1630030919&sprefix=triple+screen+stan%2Caps%2C204&sr=8-14"
+            >
+              <div>
+                <img
+                  class="triplescreenstand-img"
+                  src="https://m.media-amazon.com/images/I/81t13XZdv6L._AC_UL320_.jpg"
+                  alt="image of a triple screen stand"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="triplescreenstand-text"
+              href="https://www.amazon.com/TechOrbits-Three-Monitor-Stand-Mount/dp/B075SRGSK1/ref=sr_1_14?crid=1005UQI38890C&dchild=1&keywords=triple+screen+stand&qid=1630030919&sprefix=triple+screen+stan%2Caps%2C204&sr=8-14"
+            >
+              <div>
+                <p>
+                  <span class="triplescreenstand-texthover">
+                    TechOrbits Triple Monitor Stand - Desk Mount Arms for
+                    13-inch to 30-inch Screen Monitors with Full Motion Swivel
+                    Technology</span
+                  >
+                  ...
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="triplescreenstand-reducedprice"
+              href="https://www.amazon.com/TechOrbits-Three-Monitor-Stand-Mount/dp/B075SRGSK1/ref=sr_1_14?crid=1005UQI38890C&dchild=1&keywords=triple+screen+stand&qid=1630030919&sprefix=triple+screen+stan%2Caps%2C204&sr=8-14"
+            ></a>
+            <div>
+              <p>
+                $129.97 <span class="triplescreenstand-price"> $175.43 </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-streamdeck">
+        <div class="streamdeck-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P/ref=sr_1_1_sspa?dchild=1&keywords=stream+deck&qid=1630102531&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUThHMjhFNjhXOExDJmVuY3J5cHRlZElkPUEwMDE1ODk2MzFWRkk4VkpFSUkyQiZlbmNyeXB0ZWRBZElkPUEwNDMzMDcxT1g2ME9FSE5WNThVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+            >
+              <div>
+                <img
+                  class="streamdeck-img"
+                  src="https://m.media-amazon.com/images/I/710R9YpV9nL._AC_UY218_.jpg"
+                  alt="image of a stream deck"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="streamdeck-text"
+              href="https://www.amazon.com/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P/ref=sr_1_1_sspa?dchild=1&keywords=stream+deck&qid=1630102531&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUThHMjhFNjhXOExDJmVuY3J5cHRlZElkPUEwMDE1ODk2MzFWRkk4VkpFSUkyQiZlbmNyeXB0ZWRBZElkPUEwNDMzMDcxT1g2ME9FSE5WNThVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+            >
+              <div>
+                <p>
+                  Elgato Stream Deck - Live Content Creation Controller with 15
+                  Customizable LCD Keys, Adjustable Stand for Windows 10 and
+                  macOS 10.13 or Late (10GAA9901)
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="streamdeck-price"
+              href="https://www.amazon.com/Elgato-Stream-Deck-Controller-customizable/dp/B06XKNZT1P/ref=sr_1_1_sspa?dchild=1&keywords=stream+deck&qid=1630102531&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUThHMjhFNjhXOExDJmVuY3J5cHRlZElkPUEwMDE1ODk2MzFWRkk4VkpFSUkyQiZlbmNyeXB0ZWRBZElkPUEwNDMzMDcxT1g2ME9FSE5WNThVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+            ></a>
+            <div>
+              <p>$149.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-cleaninggel">
+        <div class="cleaninggel-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Keyboard-Universal-Keyboards-Calculators-ColorCoral/dp/B07GW9TJ3G/ref=sr_1_33?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-33"
+            >
+              <div>
+                <img
+                  class="cleaninggel-img"
+                  src="https://m.media-amazon.com/images/I/71+pIitx5gS._AC_UL320_.jpg"
+                  alt="image of a cleaning gel"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="cleaninggel-text"
+              href="https://www.amazon.com/Keyboard-Universal-Keyboards-Calculators-ColorCoral/dp/B07GW9TJ3G/ref=sr_1_33?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-33"
+            >
+              <div>
+                <p>
+                  <span class="cleaninggel-texthover"
+                    >Cleaning Gel Universal Dust Cleaner for PC Keyboard
+                    Cleaning Car Detailing Laptop Dusting Home and Office
+                  </span>
+                  ...
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="cleaninggel-reducedprice"
+              href="https://www.amazon.com/Keyboard-Universal-Keyboards-Calculators-ColorCoral/dp/B07GW9TJ3G/ref=sr_1_33?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-33"
+            ></a>
+            <div>
+              <p>$6.99 <span class="cleaninggel-price"> $9.99 </span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-bluelightfilterglasses">
+        <div class="bluelightfilterglasses-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Gunnar-Optiks-One-Piece-Construction-Anti-Reflective/dp/B001DUQU0A/ref=sr_1_1_sspa?dchild=1&keywords=gunnar+blue+light+filter+glasses&qid=1630106671&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR000VTVMSTc1WTRGJmVuY3J5cHRlZElkPUEwNTUzNDQxMVpUQVQ0UlpQVlJYNiZlbmNyeXB0ZWRBZElkPUEwMTE1MDMwMkNDUks3M0tDSUpXNyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            >
+              <div>
+                <img
+                  class="bluelightfilterglasses-img"
+                  src="https://m.media-amazon.com/images/I/81EzKoyfRzL._AC_UY218_.jpg"
+                  alt="image of blue light filtering glasses"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="bluelightfilterglasses-text"
+              href="https://www.amazon.com/Gunnar-Optiks-One-Piece-Construction-Anti-Reflective/dp/B001DUQU0A/ref=sr_1_1_sspa?dchild=1&keywords=gunnar+blue+light+filter+glasses&qid=1630106671&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR000VTVMSTc1WTRGJmVuY3J5cHRlZElkPUEwNTUzNDQxMVpUQVQ0UlpQVlJYNiZlbmNyeXB0ZWRBZElkPUEwMTE1MDMwMkNDUks3M0tDSUpXNyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            >
+              <div>
+                <p>
+                  <span class="bluelightfilterglasses-texthover"
+                    >Gaming Glasses | Blue Light Blocking Glasses | SheaDog/Onyx
+                    by Gunnar | 65% Blue Light Protection
+                  </span>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="bluelightfilterglasses-price"
+              href="https://www.amazon.com/Gunnar-Optiks-One-Piece-Construction-Anti-Reflective/dp/B001DUQU0A/ref=sr_1_1_sspa?dchild=1&keywords=gunnar+blue+light+filter+glasses&qid=1630106671&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExR000VTVMSTc1WTRGJmVuY3J5cHRlZElkPUEwNTUzNDQxMVpUQVQ0UlpQVlJYNiZlbmNyeXB0ZWRBZElkPUEwMTE1MDMwMkNDUks3M0tDSUpXNyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            ></a>
+            <div>
+              <p>$57.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-ergonomicChair">
+        <div class="ergonomicChair-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Hbada-Chair-Office-Adjustable-Height/dp/B08F2CKXTY/ref=sxin_12_pa_sp_search_thematic_sspa?cv_ct_cx=ergonomic+chair&dchild=1&keywords=ergonomice+chair&pd_rd_i=B08F2CKXTY&pd_rd_r=170942b1-ce4f-4e7c-b1b8-6202909a6e38&pd_rd_w=ebDWF&pd_rd_wg=GJGAk&pf_rd_p=3b2adfc6-e3ad-467a-9f38-271e811048b0&pf_rd_r=XRJH43338HPFK7ZK7AGC&qid=1630097071&sr=1-1-a73d1c8c-2fd2-4f19-aa41-2df022bcb241-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMkVDNzJLU0Q5Ujc1JmVuY3J5cHRlZElkPUEwMDgxNDM5MjZVV1AxV1NVSzVEUiZlbmNyeXB0ZWRBZElkPUEwMDA2OTk4MkdFUVBFODVIOFhTVSZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            >
+              <div>
+                <img
+                  class="ergonomicChair-img"
+                  src="https://m.media-amazon.com/images/I/61NvIq-Lw8L._AC_UL320_.jpg"
+                  alt="image of a black ergonomic chair"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="ergonomicChair-text"
+              href="https://www.amazon.com/Hbada-Chair-Office-Adjustable-Height/dp/B08F2CKXTY/ref=sxin_12_pa_sp_search_thematic_sspa?cv_ct_cx=ergonomic+chair&dchild=1&keywords=ergonomice+chair&pd_rd_i=B08F2CKXTY&pd_rd_r=170942b1-ce4f-4e7c-b1b8-6202909a6e38&pd_rd_w=ebDWF&pd_rd_wg=GJGAk&pf_rd_p=3b2adfc6-e3ad-467a-9f38-271e811048b0&pf_rd_r=XRJH43338HPFK7ZK7AGC&qid=1630097071&sr=1-1-a73d1c8c-2fd2-4f19-aa41-2df022bcb241-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMkVDNzJLU0Q5Ujc1JmVuY3J5cHRlZElkPUEwMDgxNDM5MjZVV1AxV1NVSzVEUiZlbmNyeXB0ZWRBZElkPUEwMDA2OTk4MkdFUVBFODVIOFhTVSZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            >
+              <div>
+                <p>
+                  Hbada Home Desk Chair Mesh Office Chair with Arms and
+                  Adjustable Height, Black
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="ergonomicChair-price"
+              href="https://www.amazon.com/Hbada-Chair-Office-Adjustable-Height/dp/B08F2CKXTY/ref=sxin_12_pa_sp_search_thematic_sspa?cv_ct_cx=ergonomic+chair&dchild=1&keywords=ergonomice+chair&pd_rd_i=B08F2CKXTY&pd_rd_r=170942b1-ce4f-4e7c-b1b8-6202909a6e38&pd_rd_w=ebDWF&pd_rd_wg=GJGAk&pf_rd_p=3b2adfc6-e3ad-467a-9f38-271e811048b0&pf_rd_r=XRJH43338HPFK7ZK7AGC&qid=1630097071&sr=1-1-a73d1c8c-2fd2-4f19-aa41-2df022bcb241-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMkVDNzJLU0Q5Ujc1JmVuY3J5cHRlZElkPUEwMDgxNDM5MjZVV1AxV1NVSzVEUiZlbmNyeXB0ZWRBZElkPUEwMDA2OTk4MkdFUVBFODVIOFhTVSZ3aWRnZXROYW1lPXNwX3NlYXJjaF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            ></a>
+            <div>
+              <p>$79.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-seatcushion">
+        <div class="seatcushion-container">
+          <div>
+            <a
+              href="https://www.amazon.com/ComfiLife-Gel-Enhanced-Seat-Cushion/dp/B014F18ZGU/ref=sr_1_1_sspa?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1629909117&sprefix=work+from+home%2Caps%2C199&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySzFCRlBaQlBWNEJDJmVuY3J5cHRlZElkPUEwODY5MDc3MUEwOVdPMjdWMTRCRSZlbmNyeXB0ZWRBZElkPUEwNjc4NzE3Q0pXNkdYM1FTR1JKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+            ></a>
+            <div>
+              <img
+                class="seatcushion-img"
+                src="https://m.media-amazon.com/images/I/81cV9Pxp3FL._AC_UL320_.jpg"
+                alt="image of a grey seat cushion"
+              />
+            </div>
+          </div>
+          <div>
+            <a
+              class="seatcushion-text"
+              href="https://www.amazon.com/ComfiLife-Gel-Enhanced-Seat-Cushion/dp/B014F18ZGU/ref=sr_1_1_sspa?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1629909117&sprefix=work+from+home%2Caps%2C199&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySzFCRlBaQlBWNEJDJmVuY3J5cHRlZElkPUEwODY5MDc3MUEwOVdPMjdWMTRCRSZlbmNyeXB0ZWRBZElkPUEwNjc4NzE3Q0pXNkdYM1FTR1JKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+            ></a>
+            <div>
+              <p>
+                <span class="seatcushion-texthover"
+                  >ComfiLife Gel Enhanced Seat Cushion - Non-Slip Orthopedic Gel
+                  & Memory Foam Coccyx Cushion for Tailbone Pain-</span
+                >
+              </p>
+            </div>
+          </div>
+          <div>
+            <a
+              class="seatcushion-reducedprice"
+              href="https://www.amazon.com/ComfiLife-Gel-Enhanced-Seat-Cushion/dp/B014F18ZGU/ref=sr_1_1_sspa?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1629909117&sprefix=work+from+home%2Caps%2C199&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySzFCRlBaQlBWNEJDJmVuY3J5cHRlZElkPUEwODY5MDc3MUEwOVdPMjdWMTRCRSZlbmNyeXB0ZWRBZElkPUEwNjc4NzE3Q0pXNkdYM1FTR1JKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+            ></a>
+            <div>
+              <p>$30.55 <span class="seatcushion-price">$36.95</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-lumbersupportpillow">
+        <div class="lumbersupportpillow-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Back-Cushion-Lumbar-Support-Pillow/dp/B01IJNJAZ0/ref=sr_1_52?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-52"
+            >
+              <div>
+                <img
+                  class="lumbersupportpillow-img"
+                  src="https://m.media-amazon.com/images/I/81eufp479HL._AC_UL320_.jpg"
+                  alt="image of a black lumber support pillow"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="lumbersupportpillow-text"
+              href="https://www.amazon.com/Back-Cushion-Lumbar-Support-Pillow/dp/B01IJNJAZ0/ref=sr_1_52?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-52"
+            >
+              <div>
+                <p>
+                  Everlasting Comfort Lumbar Support Pillow for Office Desk
+                  Chair - Memory Foam Back Cushion (Black)
+                </p>
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              class="lumbersupportpillow-reducedprice"
+              href="https://www.amazon.com/Back-Cushion-Lumbar-Support-Pillow/dp/B01IJNJAZ0/ref=sr_1_52?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-52"
+            ></a>
+            <div>
+              <p>
+                $32.95 <span class="lumbersupportpillow-price"> $39.95</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-footrestforunderthedesk">
+        <div class="footrestforunderthedesk-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Foot-Rest-Under-Desk-Footstool/dp/B07PGLBCFG/ref=sr_1_2?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-2"
+            ></a>
+            <div>
+              <img
+                class="footrestforunderthedesk-img"
+                src="https://m.media-amazon.com/images/I/71qOQKWTkpL._AC_UL320_.jpg"
+                alt="image of a black office foot rest for under the desk"
+              />
+            </div>
+          </div>
+          <div>
+            <a
+              class="footrestforunderthedesk-text"
+              href="https://www.amazon.com/Foot-Rest-Under-Desk-Footstool/dp/B07PGLBCFG/ref=sr_1_2?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-2"
+            ></a>
+            <div>
+              <p>
+                <span class="footrestforunderthedesk-texthover"
+                  >Everlasting Comfort Office Foot Rest for Under Desk -
+                  Ergonomic Memory Foam Foot Stool Pillow for Work, Gaming,
+                  Computer,
+                </span>
+                ...
+              </p>
+            </div>
+          </div>
+          <div>
+            <a
+              class="footrestforunderthedesk-reducedprice"
+              href="https://www.amazon.com/Foot-Rest-Under-Desk-Footstool/dp/B07PGLBCFG/ref=sr_1_2?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-2"
+            ></a>
+            <div>
+              <p>
+                $25.45
+                <span class="footrestforunderthedesk-price"> $39.95 </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+      <div class="product-neckandbackmassager">
+        <div class="neckandbackmassager-container">
+          <div>
+            <a
+              href="https://www.amazon.com/Nekteck-Back-Neck-Shoulder-Massager/dp/B01BZOKLOO/ref=sr_1_6?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-6"
+            ></a>
+            <div>
+              <img
+                class="neckandbackmassager-img"
+                src="https://m.media-amazon.com/images/I/71PGkxLq-DL._AC_UL320_.jpg"
+                alt="image of a black neck and back massager"
+              />
+            </div>
+          </div>
+          <div>
+            <a
+              class="neckandbackmassager-text"
+              href="https://www.amazon.com/Nekteck-Back-Neck-Shoulder-Massager/dp/B01BZOKLOO/ref=sr_1_6?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-6"
+            ></a>
+            <div>
+              <p>
+                <span class="neckandbackmassager-texthover">
+                  Shiatsu Neck and Back Massager with Soothing Heat, Nekteck
+                  Electric Deep Tissue 3D Kneading Massage Pillow for</span
+                >
+                ...
+              </p>
+            </div>
+          </div>
+          <div>
+            <a
+              class="neckandbackmassager-reducedprice"
+              href="https://www.amazon.com/Nekteck-Back-Neck-Shoulder-Massager/dp/B01BZOKLOO/ref=sr_1_6?crid=3TP6KSMBINI8E&dchild=1&keywords=work+from+home+accessories&qid=1630097028&sprefix=work+from+home%2Caps%2C199&sr=8-6"
+            ></a>
+            <div>
+              <p>
+                $39.99
+                <span class="neckandbackmassager-price"> ($39.99/Count) </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+      <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+    </div>
+  </main>
     <footer></footer>
-    <script type="text/javascript" src="/JavaScript/index.js"></script>
-    <!-- index.js goes between quotes "" -->
+    <script type="text/javascript" src="/JavaScript/clock.js"></script>
   </body>
 </html>

@@ -1,31 +1,31 @@
 .homeColumn {
-    float: left;
-    width: 30%;
-    padding: 0 5px;
+  float: left;
+  width: 30%;
+  padding: 0 5px;
+}
+
+/* Clear floats after the columns */
+.homePageRow:after {
+  /**/
+  content: "";
+  /**/
+  display: table;
+  /**/
+  clear: both;
+}
+
+/* CSS Made for adapting to smaller screen */
+@media screen and (max-width: 600px) {
+  .homeColumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
-  
-  /* Clear floats after the columns */
-  .homePageRow:after {
-    /**/
-    content: "";
-    /**/
-    display: table;
-    /**/
-    clear: both;
-  }
-  
-  /* CSS Made for adapting to smaller screen */
-  @media screen and (max-width: 600px) {
-    .homeColumn {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* Style the counter cards */
-  .homeCard {
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-    padding: 16px;
-    text-align: center;
-    /* background-color: #f1f1f1; */
+}
+
+/* Style the counter cards */
+.homeCard {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  padding: 16px;
+  text-align: center;
+}

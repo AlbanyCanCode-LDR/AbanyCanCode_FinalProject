@@ -13,10 +13,7 @@
   background-color: rgb(12, 170, 170);
 }
 
-.clock {
-  text-align: center;
-  font-size: 150%;
-}
+
 
 .products {
   display: flex;
