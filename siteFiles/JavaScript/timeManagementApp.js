@@ -64,7 +64,9 @@ function third() {
 
 function fourth() {
   sleep(timeFour).then(() => {
-    alert("You Have Been On Another Break Long Enough, Time To Get Back To Work");
+    alert(
+      "You Have Been On Another Break Long Enough, Time To Get Back To Work"
+    );
     howMany();
   });
 }
@@ -77,4 +79,3 @@ function howMany() {
     first();
   }
 }
-
