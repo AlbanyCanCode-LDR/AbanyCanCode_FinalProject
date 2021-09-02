@@ -1,3 +1,10 @@
+/* 
+  ********************************************************************************
+
+  Author:
+
+  ********************************************************************************
+ */
 .quote {
   font-family: "DM Serif Text", serif;
   font-size: 200%;
@@ -11,11 +18,6 @@
 .shopandaffiliatebody {
   color: #0f1111;
   background-color: rgb(12, 170, 170);
-}
-
-.clock {
-  text-align: center;
-  font-size: 150%;
 }
 
 .products {

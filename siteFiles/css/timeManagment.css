@@ -1,0 +1,20 @@
+/* 
+  ********************************************************************************
+
+  Authors: 
+
+  ********************************************************************************
+ */
+
+.clock {
+  text-align: center;
+  font-size: 150%;
+  border: black;
+  border-style: double;
+}
+
+.timeManagmentFormApp {
+  text-align: center;
+  border: black;
+  border-style: double;
+}

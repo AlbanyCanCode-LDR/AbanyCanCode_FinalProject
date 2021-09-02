@@ -1,3 +1,11 @@
+<!-- 
+  ********************************************************************************
+
+  Authors:
+
+  ********************************************************************************
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,13 +22,43 @@
     <!-- 3. 3-mediaStyles -->
     <link rel="stylesheet" href="css/3-mediaStyles.css" />
     <!-- 4. 4-customPageStyles -->
-    <link rel="stylesheet" href="css/4-customPageStyles.css"  />
+    <link rel="stylesheet" href="css/4-customPageStyles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap"
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap"
       rel="stylesheet"
+<<<<<<< HEAD
 />
     <script src="https://kit.fontawesome.com/602ca12e17.js" crossorigin="anonymous"></script>
+=======
+    />
+    <script
+      src="https://kit.fontawesome.com/602ca12e17.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/media/img/faviconResources/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/media/img/faviconResources/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/media/img/faviconResources/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/media/img/faviconResources/site.webmanifest" />
+
+>>>>>>> 558eee441ff4f13961068837dc335f48116b9a60
     <title>Home</title>
   </head>
 
@@ -30,52 +68,76 @@
 
     <nav class="navHTML"></nav>
     <script src="JavaScript/nav.js"></script>
+<<<<<<< HEAD
 
     <img src="/siteFiles/media/img/potentialLogo.png" alt="" height="150px">
 
+=======
+>>>>>>> 558eee441ff4f13961068837dc335f48116b9a60
     <main>
+      <img src="/siteFiles/media/img/potentialLogo.png" alt="" height="150px" />
+
       <p class="quote">
         "Balance is not something you find, it's something you create." -Jana
         Kingsford
       </p>
+
+      <div class="flex-container">
+        <div form class="form1">
+          <h1 class="headercontact">Contact Us</h1>
+          <label for="fname"> First Name: </label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="lname"> Last Name: </label><br />
+          <input type="text" id="lname" name="lname" /><br />
+          <label for="phone-input"> Phone Number:</label> <br />
+          <input
+            id="phone-input"
+            type="tel"
+            value=""
+            name="phone-input"
+            placeholder="Ex. (111)111-1111"
+          /><br />
+          <label for="email"> Email:</label><br />
+          <input type="email" id="email" name="email" /><br />
+          <label for="message"> Message:</label><br />
+          <textarea name="message" rows="5" cols="35"></textarea><br />
+          <input type="submit" id="submit" name="submit" />
+        </div>
+
+        <div class="contactpic">
+          <img
+            src="https://images.pexels.com/photos/3791119/pexels-photo-3791119.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            height="400px"
+            alt="relaxedpic"
+          />
+        </div>
+
+        <div class="contactinfo">
+          <h2><i class="fas fa-home"></i> Address</h2>
+          <p class="address1">123 Apple Avenue</p>
+          <p class="address2">Albany, NY 12201</p>
+          <br />
+          <br />
+
+          <h2><i class="fas fa-user-alt"></i> Contact</h2>
+          <p class="email">
+            <i class="fas fa-envelope-open-text"></i> balancedlife@gmail.com
+          </p>
+          <p class="phone">
+            <i class="fas fa-phone-square-alt"></i> (518)123-1234
+          </p>
+        </div>
+      </div>
     </main>
 
-    <div class="flex-container">
-      <div form class="form1">
-          <h1 class="headercontact">Contact Us</h1>
-          <label for ="fname"> First Name: </label><br>
-          <input type="text" id="fname" name="fname"><br>
-          <label for ="lname"> Last Name: </label><br>
-          <input type="text" id="lname" name="lname"><br>
-          <label for ="phone-input"> Phone Number:</label> <br>
-          <input id="phone-input" type="tel" value="" name="phone-input" placeholder="Ex. (111)111-1111"><br>
-          <label for ="email"> Email:</label><br>
-          <input type="email" id="email" name="email"><br>
-          <label  for="message"> Message:</label><br>
-          <textarea name="message" rows="5" cols="35"></textarea><br>
-          <input type="submit" id="submit" name="submit">
-      </form>
-      </div>
-  
-      <div class="contactpic">  
-        <img src="https://images.pexels.com/photos/3791119/pexels-photo-3791119.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" height="400px"  alt="relaxedpic">
-      </div>
-  
-      <div class="contactinfo">
-        <h2><i class="fas fa-home"></i> Address</h2>
-        <p class="address1">123 Apple Avenue</p>
-        <p class="address2">Albany, NY 12201</p>
-        <br>
-        <br>
-  
-        <h2><i class="fas fa-user-alt"></i> Contact</h2>
-        <p class="email"><i class="fas fa-envelope-open-text"></i>  balancedlife@gmail.com</p>
-        <p class="phone"><i class="fas fa-phone-square-alt"></i>  (518)123-1234</p>
-      </div>
-      </div>
-  
-    <footer></footer>
-    <script type="text/javascript" src="/JavaScript/index.js"></script>
-    <!-- index.js goes between quotes "" -->
+    <footer>
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Lawrence Reid, Neville Henry, Eugenia Pierre-Louis Bita Aslam- All Rights Reserved
+      </p>
+    </footer>
   </body>
 </html>
