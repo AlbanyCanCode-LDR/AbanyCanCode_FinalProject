@@ -6,7 +6,7 @@
   ********************************************************************************
  */
 
-// This substitutes the empty navHTML class Tag with the inner html. The directions for this project prevented us from using any snippets of 
+// This substitutes the empty navHTML class Tag with the inner html. The directions for this project prevented us from using any snippets of
 // PHP code that would have served the same purpose.
 
 const nav = document.querySelector(".navHTML");
@@ -19,7 +19,9 @@ nav.parentNode.replaceChild(navBar, nav);
 
 /* 
 
-Steps to modify the navBar and then use the join lines command 
+Steps to modify the navBar: 
+
+*use the join lines command* 
 
 1. Highlight Lines, Open the Command Palette Ctrl + Shift + P 
 

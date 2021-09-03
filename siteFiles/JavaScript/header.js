@@ -19,7 +19,9 @@ nav.parentNode.replaceChild(theHeaderContent, header);
 
 /* 
 
-Steps to modify the navBar and then use the join lines command 
+Steps to modify the navBar:
+
+*use the join lines command *
 
 1. Highlight Lines, Open the Command Palette Ctrl + Shift + P 
 
