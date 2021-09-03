@@ -14,11 +14,10 @@
 
 /* Clear floats after the columns */
 .homePageRow:after {
-  /**/
   content: "";
-  /**/
+
   display: table;
-  /**/
+
   clear: both;
 }
 
@@ -31,9 +30,7 @@
   }
 }
 
-/* Style the counter cards */
 .homeCard {
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
   padding: 16px;
   text-align: center;
 }
