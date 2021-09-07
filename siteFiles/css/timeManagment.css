@@ -18,3 +18,8 @@
   border: black;
   border-style: double;
 }
+
+.timeManagmentDescription {
+  text-align: center;
+  font-size: x-large;
+}

@@ -47,7 +47,8 @@ function timerSequence(event) {
 
 function getInputInMilliseconds(elementId) {
   let elemValue = getInputValueAsInt(elementId);
-  return elemValue * 1000 * 60; // Convert to milliseconds
+
+  return elemValue * 1000 * 60; // Convert to minutes
 }
 
 function getInputValueAsInt(elementId) {
