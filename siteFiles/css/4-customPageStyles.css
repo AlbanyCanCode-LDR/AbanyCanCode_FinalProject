@@ -46,46 +46,4 @@
  
 }
 
-/* This is the beginning of CSS styling for the Contact Page */
 
-.form1 {
-  text-align: left;
-  font-family: fantasy;
-  border: #2b6777;
-  border-style: double;
-  color: white;
-  padding-left: 20px;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  border-style: groove;
-  background-color: #2b6777;
-  flex-wrap: wrap;
-}
-
-.contactinfo {
-  color: white;
-  font-family: fantasy;
-  font-size: larger;
-  text-align: left;
-  padding-left: 30px;
-}
-
-.address1,
-.address2,
-.email,
-.phone {
-  color: white;
-}
-
-.contactpic {
-  padding-left: 10px;
-}
-
-.headercontact {
-  text-align: center;
-}
-
-/* This is the end of the CSS styling for the Contact Page */

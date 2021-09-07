@@ -35,8 +35,7 @@ function timerSequence(event) {
   // The functions below get user input and eventually convert them into the number of minutes waited untill the alert executes
   timeOne = getInputInMilliseconds("duration1");
   timeTwo = getInputInMilliseconds("duration2");
-  timeThree = getInputInMilliseconds("duration3");
-  timeFour = getInputInMilliseconds("duration4");
+
   /////////////////////////////////////////////////////////////////
   maxIterations = getInputValueAsInt("iterations");
   howMany();
@@ -50,6 +49,8 @@ function getInputInMilliseconds(elementId) {
 
   return elemValue * 1000 * 60; // Convert to minutes
 }
+
+
 
 function getInputValueAsInt(elementId) {
   let elem = document.getElementById(elementId);
@@ -80,25 +81,26 @@ function first() {
 function second() {
   sleep(timeTwo).then(() => {
     alert("You Have Been On Break Long Enough, Time To Get Back To Work");
-    third();
-  });
-}
-
-function third() {
-  sleep(timeThree).then(() => {
-    alert("Great Work!, Start Your Break");
-    fourth();
-  });
-}
-
-function fourth() {
-  sleep(timeFour).then(() => {
-    alert(
-      "You Have Been On Another Break Long Enough, Time To Get Back To Work"
-    );
     howMany();
+    // third();
   });
 }
+
+// function third() {
+//   sleep(timeThree).then(() => {
+//     alert("Great Work!, Start Your Break");
+//     fourth();
+//   });
+// }
+
+// function fourth() {
+//   sleep(timeFour).then(() => {
+//     alert(
+//       "You Have Been On Another Break Long Enough, Time To Get Back To Work"
+//     );
+    
+//   });
+// }
 
 //////////////////////////////////////////////////////////
 

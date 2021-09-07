@@ -1,7 +1,7 @@
 <!-- 
   ********************************************************************************
 
-  Authors: Eugenia Pierre-Louis
+  Authors: Lawrence Reid, Eugenia Pierre-Louis
 
   ********************************************************************************
  -->
@@ -24,6 +24,8 @@
     <!-- 4. 4-customPageStyles -->
     <link rel="stylesheet" href="css/4-customPageStyles.css" />
 
+    <!-- contact css -->
+    <link rel="stylesheet" href="/css/contact.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,6 +38,26 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/media/img/faviconResources/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/media/img/faviconResources/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/media/img/faviconResources/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/media/img/faviconResources/site.webmanifest" />
+
     <title>Contact</title>
   </head>
 
@@ -46,36 +68,62 @@
     <nav class="navHTML"></nav>
     <script src="JavaScript/nav.js"></script>
 
+    <p class="quote">
+      "Balance is not something you find, it's something you create." -Jana
+      Kingsford
+    </p>
+
     <main>
-      <p class="quote">
-        "Balance is not something you find, it's something you create." -Jana
-        Kingsford
-      </p>
+      <div class="responsive-Mobile-Grid">
+        <div class="gridCard contactPageBackground">
+          <div form>
+            <h1 class="headercontact">Contact Us</h1>
+            <label class="contactLabel" for="fname"> First Name: </label><br />
+            <input
+              class="contactLabel"
+              type="text"
+              id="fname"
+              name="fname"
+            /><br />
+            <label class="contactLabel" for="lname"> Last Name: </label><br />
+            <input
+              class="contactLabel"
+              type="text"
+              id="lname"
+              name="lname"
+            /><br />
+            <label class="contactLabel" for="phone-input"> Phone Number:</label>
+            <br />
+            <input
+              class="contactLabel"
+              id="phone-input"
+              type="tel"
+              value=""
+              name="phone-input"
+              placeholder="Ex. (111)111-1111"
+            /><br />
+            <label class="contactLabel" for="email"> Email:</label><br />
+            <input
+              class="contactLabel"
+              type="email"
+              id="email"
+              name="email"
+            /><br />
+            <label class="contactLabel" for="message"> Message:</label><br />
+            <textarea name="message" rows="5" cols="35"></textarea><br />
 
-      <div class="flex-container">
-        <div form class="form1">
-          <h1 class="headercontact">Contact Us</h1>
-          <label for="fname"> First Name: </label><br />
-          <input type="text" id="fname" name="fname" /><br />
-          <label for="lname"> Last Name: </label><br />
-          <input type="text" id="lname" name="lname" /><br />
-          <label for="phone-input"> Phone Number:</label> <br />
-          <input
-            id="phone-input"
-            type="tel"
-            value=""
-            name="phone-input"
-            placeholder="Ex. (111)111-1111"
-          /><br />
-          <label for="email"> Email:</label><br />
-          <input type="email" id="email" name="email" /><br />
-          <label for="message"> Message:</label><br />
-          <textarea name="message" rows="5" cols="35"></textarea><br />
-          <input type="submit" id="submit" name="submit" />
+            <input
+              class="submitButton"
+              type="submit"
+              id="submit"
+              name="submit"
+              value="Send Message"
+            />
+          </div>
         </div>
-
-        <div class="contactpic">
+        <div class="gridCard">
           <img
+            class="profile-img"
             src="/media/img/Relaxed pic.jpg"
             height="400px"
             alt="Remote worker relaxed after using our time management app"
@@ -83,20 +131,21 @@
           />
         </div>
 
-        <div class="contactinfo">
-          <h2><i class="fas fa-home"></i> Address</h2>
-          <p class="address1">123 Apple Avenue</p>
-          <p class="address2">Albany, NY 12201</p>
-          <br />
-          <br />
-
-          <h2><i class="fas fa-user-alt"></i> Contact</h2>
-          <p class="email">
-            <i class="fas fa-envelope-open-text"></i> balancedlife@gmail.com
-          </p>
-          <p class="phone">
-            <i class="fas fa-phone-square-alt"></i> (518)123-1234
-          </p>
+        <div class="gridCard contactPageBackground">
+          <div class="contactinfo">
+            <h2><i class="fas fa-home"></i> Address</h2>
+            <p class="address1">123 Apple Avenue</p>
+            <p class="address2">Albany, NY 12201</p>
+            <br />
+            <br />
+            <h2><i class="fas fa-user-alt"></i> Contact</h2>
+            <p class="email">
+              <i class="fas fa-envelope-open-text"></i> balancedlife@gmail.com
+            </p>
+            <p class="phone">
+              <i class="fas fa-phone-square-alt"></i> (518)123-1234
+            </p>
+          </div>
         </div>
       </div>
     </main>
