@@ -14,7 +14,7 @@ const nav = document.querySelector(".navHTML");
 const navBar = document.createElement("nav");
 
 navBar.innerHTML =
-  '<div class="navLinksToTheRight"> <a href="1-index.html">Home</a> <a href="2-bestPractices.html">Best Practices</a> <a href="3-timeManagmentApp.html">Time managment app</a> <a href="4-ShopAndAffiliateLinks.html">Shop-Affiliates</a> <a href="5-Contact.html">Contact</a> </div>';
+  '<div class="navLinksToTheRight"> <a href="1-index.html">Home</a> <a href="2-bestPractices.html">Best Practices</a> <a href="3-timeManagmentApp.html">Time Management App</a> <a href="4-ShopAndAffiliateLinks.html">Shop-Affiliates</a> <a href="5-Contact.html">Contact</a> </div>';
 nav.parentNode.replaceChild(navBar, nav);
 
 /* 

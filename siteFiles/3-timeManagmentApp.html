@@ -78,9 +78,6 @@
 
       <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-
-
-      
       <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
       <form class="timeManagmentFormApp">
@@ -96,14 +93,7 @@
         >
 
         <input type="number" id="duration2" name="duration2" value="" /><br />
-        <p></p>
-        <label for="duration3"
-          >Notification After x minutes worked (reccomened 25-35)</label
-        >
-        <input type="number" id="duration3" name="duration3" value="" /><br />
-        <p></p>
-        <label for="duration2">Take Another x Minute Break </label>
-        <input type="number" id="duration4" name="duration4" value="" /><br />
+
         <p></p>
         <label for="iterations">
           How many times would you like the sequence to run?</label
@@ -116,8 +106,12 @@
           value="Start Timer Sequence"
           onclick="return timerSequence(event)"
         />
+        <p></p>
       </form>
 
+      <p class="timeManagmentDescription">
+        This app was written using multiple JavaScript promises.
+      </p>
       <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////// -->
     </main>
 
@@ -131,7 +125,7 @@
         <script>
           document.write(new Date().getFullYear());
         </script>
-      Lawrence Reid, Neville Henry, Eugenia Pierre-Louis, Bita Aslam- All Rights Reserved
+        Lawrence Reid - All Rights Reserved
       </p>
     </footer>
   </body>
