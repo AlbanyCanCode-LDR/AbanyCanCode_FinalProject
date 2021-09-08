@@ -31,22 +31,41 @@
 }
 
 .homeCard {
-<<<<<<< HEAD
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-  padding: 35px;
-=======
   padding: 16px;
->>>>>>> 6f0bd4703b22e141b4bf031c491ff56b7fce7ee8
+
   text-align: center;
 }
 
 .bestPractices {
-
-  
-
- color: black;
-font-size: medium;
+  color: black;
+  font-size: medium;
+  padding: 20px;
 }
+
+.spacing {
+  padding: 20px;
+}
+
+.bottomItemSpacing {
+  padding-bottom: 15px;
+}
+
 #make1 {
   color: black !important;
+}
+
+.responsive-Mobile-Grid-BestPractices {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 27.77rem);
+  justify-content: center;
+}
+
+.gridCard-BestPractices {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px grey;
+  font-size: larger;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  margin: 2%;
 }
