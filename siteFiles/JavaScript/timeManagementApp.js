@@ -5,61 +5,52 @@
 
   ********************************************************************************
  */
-/////////////////////////////////////////////////////////////////////////////////////////////////
-/* 
-  ********************************************************************************
 
-                                Time Managment App
+/* /////////////////////////////////////////////////////////////////// */
 
-Application Description:
-
-1.
-
-2.
-
-3.
-
-4.
-
-5.
-
-
-
-  ********************************************************************************
- */
 function timerSequence(event) {
+  // This will be used for de-bugging
   console.log("timerSequence");
-  event.preventDefault(); // Helps prevent page reload
-  iterations = 0; //Reset counter for another run
-
-  // The functions below get user input and eventually convert them into the number of minutes waited untill the alert executes
+  // This helps to prevent page reload
+  event.preventDefault();
+  //This re-sets the counter for another run
+  iterations = 0;
+  //These function take user input and return the value to the timerSequence function
   timeOne = getInputInMilliseconds("duration1");
   timeTwo = getInputInMilliseconds("duration2");
-
-  /////////////////////////////////////////////////////////////////
   maxIterations = getInputValueAsInt("iterations");
+
   howMany();
-  return false; //Helps prevent page reload
+
+  //Helps prevent page reload
+  return false;
 }
 
-///////////////////////////////////////////////////////////
+/* /////////////////////////////////////////////////////////////////// */
 
+
+
+/* /////////////////////////////////////////////////////////////////// */
 function getInputInMilliseconds(elementId) {
   let elemValue = getInputValueAsInt(elementId);
 
-  return elemValue * 1000 * 60; // Convert to minutes
+  return elemValue * 1000 * 60; // Converts milliseconds to minutes
 }
-
-
-
 function getInputValueAsInt(elementId) {
   let elem = document.getElementById(elementId);
-  let elemValue = parseInt(elem.value); // Need to validate inputs
+  let elemValue = parseInt(elem.value);
   return elemValue;
 }
+/* /////////////////////////////////////////////////////////////////// */
+function howMany() {
+  iterations += 1;
+  if (iterations <= maxIterations) {
+    first();
+  }
+}
 
-///////////////////////////////////////////////////////
-
+//This creates a new promise object that allows for a .then method to be used in the function named "first".
+//The promise has been fulfilled after the setTimeout function is done running
 function sleep(ms) {
   function timeoutFunc(resolve) {
     setTimeout(resolve, ms);
@@ -68,8 +59,6 @@ function sleep(ms) {
   let newProm = new Promise(timeoutFunc);
   return newProm;
 }
-
-//////////////////////////////////////////////////////////
 
 function first() {
   sleep(timeOne).then(() => {
@@ -82,31 +71,9 @@ function second() {
   sleep(timeTwo).then(() => {
     alert("You Have Been On Break Long Enough, Time To Get Back To Work");
     howMany();
-    // third();
   });
 }
 
-// function third() {
-//   sleep(timeThree).then(() => {
-//     alert("Great Work!, Start Your Break");
-//     fourth();
-//   });
-// }
-
-// function fourth() {
-//   sleep(timeFour).then(() => {
-//     alert(
-//       "You Have Been On Another Break Long Enough, Time To Get Back To Work"
-//     );
-    
-//   });
-// }
-
 //////////////////////////////////////////////////////////
 
-function howMany() {
-  iterations += 1;
-  if (iterations <= maxIterations) {
-    first();
-  }
-}
+
