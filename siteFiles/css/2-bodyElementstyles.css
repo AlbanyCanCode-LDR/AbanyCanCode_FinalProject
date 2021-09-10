@@ -7,31 +7,36 @@
  */
 
 body {
-  background-color: #0ab8a9;
+  background-color: #d7f8f6;
 }
 
 a {
   color: #0026ff;
   font-size: x-large;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
   font-size: x-large;
   color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ol {
   font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
   font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*                       custom classes below                            */
 
 .quote {
-  font-family: "DM Serif Text", serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 200%;
   text-align: center;
   color: #2b6777;

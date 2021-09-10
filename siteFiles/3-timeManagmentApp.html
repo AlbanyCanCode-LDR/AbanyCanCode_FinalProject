@@ -82,28 +82,28 @@
 
       <form class="timeManagmentFormApp">
         <label for="duration1"
-          >Notification After x minutes worked (reccomened 25-35)</label
+          >Work Duration (Minutes)</label
         >
 
         <input type="number" id="duration1" name="duration1" value="" />
         <p></p>
 
-        <label for="duration2"
-          >Notification That You Have Taken A Break For x minutes</label
+        <label for="duration2" class="labelHeight"
+          >Break Duration (Minutes)</label
         >
 
         <input type="number" id="duration2" name="duration2" value="" /><br />
 
         <p></p>
         <label for="iterations">
-          How many times would you like the sequence to run?</label
+          Number of Sequences?</label
         >
         <input type="number" id="iterations" name="iterations" value="" /><br />
         <p></p>
         <input
-          class="tartTimerSequence"
+          class="timeManagmentFormApp"
           type="button"
-          value="Start Timer Sequence"
+          value="Start Timer Sequence "
           onclick="return timerSequence(event)"
         />
         <p></p>

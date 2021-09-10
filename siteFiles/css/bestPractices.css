@@ -56,16 +56,17 @@
 
 .responsive-Mobile-Grid-BestPractices {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 27.77rem);
+  grid-template-columns: repeat(auto-fit, 50rem);
   justify-content: center;
 }
 
 .gridCard-BestPractices {
-  overflow: hidden;
+  overflow: auto;
   box-shadow: 0px 2px 8px 0px grey;
   font-size: larger;
-  text-align: center;
+  text-align: left;
   border-radius: 1rem;
   position: relative;
   margin: 2%;
+  text-indent: 20%;
 }

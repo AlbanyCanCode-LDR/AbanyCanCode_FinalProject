@@ -28,13 +28,13 @@ function timerSequence(event) {
 
 /* /////////////////////////////////////////////////////////////////// */
 
-
+// 
 
 /* /////////////////////////////////////////////////////////////////// */
 function getInputInMilliseconds(elementId) {
   let elemValue = getInputValueAsInt(elementId);
 
-  return elemValue * 1000 * 60; // Converts milliseconds to minutes
+  return elemValue * 1000* 60 ; // Converts milliseconds to minutes
 }
 function getInputValueAsInt(elementId) {
   let elem = document.getElementById(elementId);
