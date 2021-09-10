@@ -6,7 +6,7 @@
   ********************************************************************************
  */
 
-// This substitutes the empty navHTML class Tag with the inner html. The directions for this project prevented us from using any snippets of 
+// This substitutes the empty navHTML class Tag with the inner html. The directions for this project prevented us from using any snippets of
 // PHP code that would have served the same purpose
 
 const header = document.querySelector(".topOfPageContent");
@@ -14,10 +14,14 @@ const header = document.querySelector(".topOfPageContent");
 const headerContent = document.createElement("headerImg");
 
 header.innerHTML =
-  '<img class="logo" title="Life Work Balance Logo" src="/media/img/potentialLogoUpdate.png" alt="Life Work Balance Logo" />';
+  '<a href="1-index.html"><img class="logo" title="Life Work Balance Logo" src="/media/img/potentialLogoUpdate.png" alt="Life Work Balance Logo" /></a>';
 nav.parentNode.replaceChild(theHeaderContent, header);
 
 /* 
+   
+            
+
+          
 
 Steps to modify the navBar:
 

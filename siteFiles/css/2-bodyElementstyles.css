@@ -40,8 +40,10 @@ li {
   font-size: 200%;
   text-align: center;
   color: #2b6777;
+  margin-top: 30px;
   margin-bottom: 30px;
   font-family: fantasy;
-  border: #1100fa;
-  border-style: double;
+  padding: 20px;
+ 
+  
 }
